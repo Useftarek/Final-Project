@@ -4,9 +4,11 @@ import 'swiper/css';
 
 
 export default function OurHappy() {
+  
   return (
     <section className="testimonials">
       <h2 className="title">OUR HAPPY CUSTOMERS</h2>
+      
       <Swiper
         spaceBetween={15} 
         slidesPerView={1} 
