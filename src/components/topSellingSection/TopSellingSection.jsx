@@ -19,10 +19,10 @@ export default function TopSellingSection() {
             disableOnInteraction: false,
           }}
         breakpoints={{
-          320: { slidesPerView: 1 }, // شاشة الموبايل الصغيرة
-          640: { slidesPerView: 2 }, // شاشة الموبايل
-          1024: { slidesPerView: 4 }, // التابلت
-          1200: { slidesPerView: 4 }, // الشاشات الكبيرة
+          320: { slidesPerView: 1 },
+          640: { slidesPerView: 2 }, 
+          1024: { slidesPerView: 4 }, 
+          1200: { slidesPerView: 4 },
         }}
       >
         <SwiperSlide>

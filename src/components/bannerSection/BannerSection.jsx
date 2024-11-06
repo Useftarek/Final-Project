@@ -27,7 +27,7 @@ export default function BannerSection() {
                 <img src="https://s3-alpha-sig.figma.com/img/b26f/ea69/ccfd8aa5825862cdb9604a4fb4930464?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bGbkApZPSr3T2OCQhzOYYTTdKBSYTPxYXyRSfliDcPC0fI2IozHggb5P2iDHhFs-jHGl7PoOs85kvk7wIeWv4GUSQvUI4e30C0WKgASAlJBOFKJ-O4Uno~PopqAO-Z6AqYDk7nQYhutjH81XzZ-zwQ9tPJjLqjljHsQOfXQm4OAgP1q1s6LlR7lPdbQeNulDk~z5trfdhlVz9P3YcH-4~d0HMm3cijgQTR9BXVzl8XRn1XkyMof~qyPco1r6n9F3Xd6k~fPLUXGaUkSLi3lh6n14tsdS8W9YtruU1aCaPpsoUszKJuQBlphiE0pHK6UAMFk6gD9xIMwiPFD02Ivh~A__" alt="" />
             </div>
         <div className='brands'>
-            <span>VERSACE</span>
+            <span>VERSE</span>
             <span>ZARA</span>
             <span>GUCCI</span>
             <span>PRADA</span>

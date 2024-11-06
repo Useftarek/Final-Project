@@ -11,18 +11,18 @@ export default function TopSellingSection() {
     <section className="new-arrivals py px">
       <h2 className="title">NEW ARRIVALS</h2>
       <Swiper
-        modules={[Navigation, Pagination , Autoplay]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={20}
-        slidesPerView={4} 
+        slidesPerView={4}
         autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
-          320: { slidesPerView: 1 }, // شاشة الموبايل الصغيرة
-          640: { slidesPerView: 2 }, // شاشة الموبايل
-          1024: { slidesPerView: 4 }, // التابلت
-          1200: { slidesPerView: 4 }, // الشاشات الكبيرة
+          320: { slidesPerView: 1 },
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
+          1200: { slidesPerView: 4 },
         }}
       >
         <SwiperSlide>
@@ -50,7 +50,7 @@ export default function TopSellingSection() {
               <span>⭐️⭐️⭐️⭐️</span> <span>4/5</span>
             </div>
             <p className="price">
-            <span className="discounted">$240</span> <span className="original">$260</span> <span className="discount">-20%</span>
+              <span className="discounted">$240</span> <span className="original">$260</span> <span className="discount">-20%</span>
             </p>
           </div>
         </SwiperSlide>
@@ -80,7 +80,7 @@ export default function TopSellingSection() {
               <span>⭐️⭐️⭐️⭐️⭐️</span> <span>5/5</span>
             </div>
             <p className="price">
-            <span className="discounted">$130</span> <span className="original">$160</span> <span className="discount">-30%</span>
+              <span className="discounted">$130</span> <span className="original">$160</span> <span className="discount">-30%</span>
             </p>
           </div>
         </SwiperSlide>
