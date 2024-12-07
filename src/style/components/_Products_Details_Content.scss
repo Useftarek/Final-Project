@@ -1,0 +1,204 @@
+.products_details_container {
+    display: flex;
+    padding-top: 7em;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 1em;
+
+    & .products_details_content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .8em;
+
+
+        h2 {
+            font-family: "Candal", sans-serif;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
+        .rating {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.7rem;
+            font-weight: 400;
+            font-family: "Josefin Sans", sans-serif;
+
+            .discounted {
+                color: $second-color;
+            }
+
+            .original {
+                text-decoration: line-through;
+                color: $discount-color;
+                margin: 0 5px;
+
+            }
+
+            .discount {
+
+                font-size: 1rem;
+                color: $sale-color;
+                border-radius: 20px;
+                padding: 3px 10px;
+                border: 1px solid $sale-color;
+                background: rgba(255, 0, 0, 0.342);
+            }
+        }
+
+        .description {
+            font-size: 1.2rem;
+            color: $discount-color;
+            font-family: "Josefin Sans", sans-serif;
+            
+        }
+    }
+}
+
+.products_colors {
+    display: flex;
+    flex-direction: column;
+
+    & p {
+        font-size: 1em;
+        font-family: "Josefin Sans", sans-serif;
+        color: $discount-color;
+    }
+
+    .colors_div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+
+        .check-mark {
+            width: 1.5em;
+            color: $main-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .clr1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #4F4631;
+            cursor: pointer;
+        }
+
+        .clr2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #314F4A;
+            cursor: pointer;
+        }
+
+        .clr3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #31344F;
+            cursor: pointer;
+        }
+    }
+}
+
+.product_d_size_container {
+    width: 100%;
+    height: 100%;
+    font-family: "Josefin Sans", sans-serif;
+
+    .sizes {
+
+        width: 100%;
+        height: 60%;
+        display: flex;
+        gap: 3em;
+        padding-top: 1em;
+
+        .size {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            width: 110px;
+            height: 60px;
+            border-radius: 3em;
+            cursor: pointer;
+            background-color: $color-bg;
+            color: #00000099;
+            transition: background-color 0.3s, color 0.3s;
+            font-family: "Josefin Sans", sans-serif;
+        }
+
+        .size.selected {
+            background-color: $second-color;
+            color: $main-color;
+        }
+
+    }
+}
+
+.product_add_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .Add_minues {
+        width: 12em;
+        height: 3em;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color-bg;
+
+        p {
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: 700;
+            color: $second-color;
+
+            .minus, .plus {
+                margin: 0 30px;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    .add_to_cart-btn{
+        width: 31em;
+        height: 4em;
+        border-radius: 2em;
+        background: $second-color;
+        color: $main-color;
+        border: none;
+        font-size: .9em;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+    }
+}

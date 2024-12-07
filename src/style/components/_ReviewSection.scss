@@ -1,0 +1,191 @@
+.review-section {
+    width: 80%;
+    margin: auto;
+
+    .tabs {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #ddd;
+
+        gap: 3em;
+        button {
+            display: flex;
+            align-items: center;
+            font-family: "Candal", sans-serif;
+            font-size: 1.5em;
+            font-weight: 400;
+            background: transparent;
+            border: none;
+            opacity: .5;
+            margin-bottom: 1em;
+            cursor: pointer;
+
+            &.active {
+                opacity: 1;
+                font-weight: bold;
+                border-bottom: 2px solid $second-color;
+            }
+        }
+    }
+
+    .content {
+        padding: 1rem;
+
+        .reviews {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 1em;
+            padding-block: 1.3em;
+            h3 {
+                font-size: 1.1em;
+                margin-top: .4em;
+                margin-bottom: .7em;     
+            }
+
+
+            .review-card {
+                width: calc((100% - 3rem) / 2);
+                border: 1px solid #3b3b3b17;
+                padding: 1.5em;
+                border-radius: 10px;
+                background: -$color-bg;
+                background-color: $main-color;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                font-family: "Josefin Sans", sans-serif;
+             
+
+                .comment {
+                    margin: 0.5rem 0;
+                    font-style: italic;
+                    color: $comment-color;
+                    
+                }
+
+                .date {
+                    color: $discount-color;
+                    font-size: 0.9rem;
+                    margin-top: 2rem;
+                }
+            }
+
+            
+            .loading_more{
+                & button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 2.5em;
+                    gap: .5em;
+                    border: 0;
+                    padding: 1.5em 3em;
+                    border-radius: 30px;
+                    background: #0000001A;
+                    cursor: pointer;
+                    font-family: "Josefin Sans", sans-serif;
+                    font-weight: 700;
+                    font-size: .7em;
+                }
+            }
+        }
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 1em;
+        h2{
+            font-size: 2em;
+            font-weight: 800;
+            font-family: "Josefin Sans", sans-serif;
+        }
+        p{
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 1.2em;
+            color: $comment-color;
+            width: 800px;
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    .review-section{
+        .content{
+            .reviews {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    gap: 1em;
+                    padding-block: 1.3em;
+                    h3 {
+                        font-size: 1.1em;
+                        margin-top: .4em;
+                        margin-bottom: .7em;     
+                    }
+                
+                
+                    .review-card {
+                        width: calc((100% - 1rem) / 1);
+                        border: 1px solid #3b3b3b17;
+                        padding: 1.5em;
+                        border-radius: 10px;
+                        background: -$color-bg;
+                        background-color: $main-color;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                        font-family: "Josefin Sans", sans-serif;
+                       
+                
+                        .comment {
+                            margin: 0.5rem 0;
+                            font-style: italic;
+                            color: $comment-color;
+                            
+                        }
+                
+                        .date {
+                            color: $discount-color;
+                            font-size: 0.9rem;
+                            margin-top: 2rem;
+                        }
+                    }
+                
+                    
+                    .loading_more{
+                        & button {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 2.5em;
+                            gap: .5em;
+                            border: 0;
+                            padding: 1.5em 3em;
+                            border-radius: 30px;
+                            background: #0000001A;
+                            cursor: pointer;
+                            font-family: "Josefin Sans", sans-serif;
+                            font-weight: 700;
+                            font-size: .7em;
+                        }
+                    }
+                 }
+              .reviews .review-card:nth-child(n+4) {
+                display: none;
+              }
+            }
+            
+            .loading_more {
+              text-align: center;
+            }
+        }
+    }
+
+
+

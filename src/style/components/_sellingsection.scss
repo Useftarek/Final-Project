@@ -1,0 +1,114 @@
+.top_selling  {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Candal", sans-serif;
+  }
+
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+   
+  }
+
+  .view-all {
+    margin-top: 30px;
+    padding: 16px 54px;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      
+      background: $color-bg;
+    }
+  }
+}
+
+hr {
+  border: 1px solid #0000001A;
+  margin: 50px 0;
+  padding-inline: 60px ;
+}
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.product img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
+
+
+.product {
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+
+  img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  .product-name {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-size: 1.1rem;
+    font-weight: 400;
+
+    .discounted {
+      color: $second-color;
+    }
+
+    .original {
+      text-decoration: line-through;
+      color: #a7a5a5;
+      margin: 0 5px;
+    }
+
+    .discount {
+      
+      font-size: 0.9rem;
+      color: $sale-color;
+      border-radius: 20px;
+      padding: 3px 10px;
+      border: 1px solid $sale-color;
+      background: rgba(255, 0, 0, 0.342);
+    }
+  }
+}
+
+

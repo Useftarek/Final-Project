@@ -1,0 +1,44 @@
+.testimonials {
+  padding: 2rem;
+  text-align: center;
+
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  .swiper {
+    padding: 1rem 0;
+  }
+
+  .testimonial {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5rem;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+    .rating {
+      color: #ffc107;
+      font-size: 1.2rem;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 0.5rem 0;
+
+      .verified {
+        color: green;
+      }
+    }
+
+    .comment {
+      font-size: 0.9rem;
+      color: #666;
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product A",
+            "price": 29.99,
+            "size": "medium",
+            "sale": "-10%",
+            "rating": 4.5,
+            "discount": 10,
+            "color": "Red",
+            "image": "https://img.freepik.com/free-photo/close-up-shot-red-hat-scarf-winter-stylish-coat-woman-who-enjoys-cold-autumn-season_1150-13475.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Product B",
+            "price": 49.99,
+            "size": "large",
+            "sale": "0%",
+            "rating": 3.8,
+            "discount": 15,
+            "color": "Blue",
+            "image": "https://img.freepik.com/free-photo/beautiful-close-up-spring-woman-flower-hair_1150-26478.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Product C",
+            "price": 19.99,
+            "size": "small",
+            "sale": "-5%",
+            "rating": 4.0,
+            "discount": 5,
+            "color": "Green",
+            "image": "https://img.freepik.com/free-photo/fashionable-woman-wearing-scarf-winter-autumn-clothing_1150-26195.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Product D",
+            "price": 39.99,
+            "size": "x-large",
+            "sale": "0%",
+            "rating": 4.7,
+            "discount": 20,
+            "color": "Yellow",
+            "image": "https://img.freepik.com/free-photo/stylish-woman-yellow-jacket-autumn-coat-warm-clothing-autumn-winter-fashion-trend_1150-24471.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Product E",
+            "price": 59.99,
+            "size": "medium",
+            "sale": "-25%",
+            "rating": 5.0,
+            "discount": 25,
+            "color": "Black",
+            "image": "https://img.freepik.com/free-photo/fashion-model-street-style-black-leather-jacket-girl-stylish-fashion-autumn_1150-24454.jpg"
+          },
+          {
+            "id": 6,
+            "name": "Product F",
+            "price": 69.99,
+            "size": "large",
+            "sale": "-30%",
+            "rating": 3.9,
+            "discount": 30,
+            "color": "White",
+            "image": "https://img.freepik.com/free-photo/sunshine-young-woman-white-dress-walking-street-wearable-fashion-dresses-casual-autumn-wear_1150-26610.jpg"
+          },
+          {
+            "id": 7,
+            "name": "Product G",
+            "price": 89.99,
+            "size": "x-large",
+            "sale": "0%",
+            "rating": 4.2,
+            "discount": 10,
+            "color": "Purple",
+            "image": "https://img.freepik.com/free-photo/sitting-woman-with-purple-pink-scarf_1150-13471.jpg"
+          },
+          {
+            "id": 8,
+            "name": "Product H",
+            "price": 99.99,
+            "size": "small",
+            "sale": "-40%",
+            "rating": 4.8,
+            "discount": 40,
+            "color": "Orange",
+            "image": "https://img.freepik.com/free-photo/beautiful-young-woman-oranges-background-hands-on-waist_1150-19044.jpg"
+          },
+          {
+            "id": 9,
+            "name": "Product I",
+            "price": 79.99,
+            "size": "medium",
+            "sale": "0%",
+            "rating": 3.5,
+            "discount": 15,
+            "color": "Pink",
+            "image": "https://img.freepik.com/free-photo/beautiful-young-woman-pink-dress_1150-19485.jpg"
+          },
+          {
+            "id": 10,
+            "name": "Product J",
+            "price": 39.99,
+            "size": "large",
+            "sale": "-10%",
+            "rating": 4.1,
+            "discount": 10,
+            "color": "Brown",
+            "image": "https://img.freepik.com/free-photo/beautiful-woman-coat-autumn-winter-fashion_1150-15749.jpg"
+          },
+          {
+            "id": 11,
+            "name": "Product K",
+            "price": 29.99,
+            "size": "x-large",
+            "sale": "-20%",
+            "rating": 4.6,
+            "discount": 20,
+            "color": "Grey",
+            "image": "https://img.freepik.com/free-photo/woman-with-glasses-wearing-grey-winter-coat_1150-14914.jpg"
+          },
+          {
+            "id": 12,
+            "name": "Product L",
+            "price": 19.99,
+            "size": "small",
+            "sale": "0%",
+            "rating": 3.7,
+            "discount": 5,
+            "color": "Beige",
+            "image": "https://img.freepik.com/free-photo/fashion-winter-trendy-woman-wearing-coat-hat_1150-24451.jpg"
+          },
+          {
+            "id": 13,
+            "name": "Product M",
+            "price": 49.99,
+            "size": "medium",
+            "sale": "-15%",
+            "rating": 4.3,
+            "discount": 15,
+            "color": "Gold",
+            "image": "https://img.freepik.com/free-photo/stylish-young-woman-coat-yellow-scarf_1150-24456.jpg"
+          },
+          {
+            "id": 14,
+            "name": "Product N",
+            "price": 59.99,
+            "size": "large",
+            "sale": "0%",
+            "rating": 4.2,
+            "discount": 10,
+            "color": "Silver",
+            "image": "https://img.freepik.com/free-photo/winter-woman-coat-scarf-beautiful_1150-24453.jpg"
+          },
+          {
+            "id": 15,
+            "name": "Product O",
+            "price": 79.99,
+            "size": "x-large",
+            "sale": "-25%",
+            "rating": 4.9,
+            "discount": 25,
+            "color": "Cyan",
+            "image": "https://img.freepik.com/free-photo/young-woman-autumn-coat_1150-17907.jpg"
+          },
+          {
+            "id": 16,
+            "name": "Product P",
+            "price": 89.99,
+            "size": "medium",
+            "sale": "0%",
+            "rating": 3.9,
+            "discount": 30,
+            "color": "Turquoise",
+            "image": "https://img.freepik.com/free-photo/portrait-young-woman-fur-hat-scarf-winter_1150-24450.jpg"
+          },
+          {
+            "id": 17,
+            "name": "Product Q",
+            "price": 69.99,
+            "size": "small",
+            "sale": "-40%",
+            "rating": 4.0,
+            "discount": 40,
+            "color": "Violet",
+            "image": "https://img.freepik.com/free-photo/young-woman-winter-jacket-gloves_1150-18133.jpg"
+          },
+          {
+            "id": 18,
+            "name": "Product R",
+            "price": 59.99,
+            "size": "large",
+            "sale": "0%",
+            "rating": 4.4,
+            "discount": 15,
+            "color": "Indigo",
+            "image": "https://img.freepik.com/free-photo/woman-winter-clothing-fashion-female-hat-scarf-coat_1150-24457.jpg"
+          },
+          {
+            "id": 19,
+            "name": "Product S",
+            "price": 99.99,
+            "size": "medium",
+            "sale": "-20%",
+            "rating": 4.5,
+            "discount": 20,
+            "color": "Mint",
+            "image": "https://img.freepik.com/free-photo/young-woman-winter-coat_1150-16222.jpg"
+          },
+          {
+            "id": 20,
+            "name": "Product T",
+            "price": 119.99,
+            "size": "x-large",
+            "sale": "0%",
+            "rating": 4.6,
+            "discount": 25,
+            "color": "Lavender",
+            "image": "https://img.freepik.com/free-photo/portrait-woman-winter-coat-scarf_1150-24469.jpg"
+          }
+    ]
+}
