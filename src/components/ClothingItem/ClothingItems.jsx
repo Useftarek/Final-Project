@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { getAllProducts } from "../../api/FetchAPI.Js";
+import { getAllProducts } from "../../api/FetchAPI";
 import { CartContext } from "../../context/CartContext";
 import toast from "react-hot-toast";
 const ClothingItems = () => {

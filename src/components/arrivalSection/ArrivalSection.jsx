@@ -4,7 +4,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { useNavigate } from 'react-router-dom';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { getAllProducts } from '../../api/FetchAPI.Js';
+import { getAllProducts } from '../../api/FetchAPI';
 
 export default function ArrivalSection() {
   const { data, isLoading, isError } = getAllProducts();

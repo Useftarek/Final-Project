@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../button/Button";
 import { use } from "react";
 import { useNavigate } from "react-router-dom";
-import { getBanner } from "../../api/FetchAPI.Js";
+import { getBanner } from "../../api/FetchAPI";
 
 export default function BannerSection() {
     const navigate = useNavigate();

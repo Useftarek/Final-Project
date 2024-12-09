@@ -1,5 +1,5 @@
 import React from 'react';
-import { getDressImages } from '../../api/FetchAPI.Js';
+import { getDressImages } from '../../api/FetchAPI';
 
 export default function BrowseByDressStyle() {
 
