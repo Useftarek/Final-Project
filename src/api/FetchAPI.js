@@ -7,3 +7,10 @@ export const getAllProducts = () => {
         queryFn:  () => AxiosConfig("/products"),
     })
 };
+
+export const getDressImages = () => {
+  return useQuery({
+    queryKey: ['dress'],
+    queryFn: () => AxiosConfig.get("/dress"),
+  });
+};
