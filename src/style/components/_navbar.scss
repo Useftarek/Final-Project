@@ -124,8 +124,19 @@
 
     .icons {
         display: flex;
-        gap: 15px;
-        
+        gap: 30px;
+        .user{
+            position: absolute;
+            background: $second-color;
+            right: 144px;
+            top: 30px;
+            border-radius: 50%;
+            font-size: 15px;
+            padding: 5px 5px;
+            color: $main-color;
+            cursor: pointer;
+
+        }
         .cart-count {
           position: absolute;
           top: 5px;

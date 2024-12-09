@@ -1,99 +1,90 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
+import { useContext } from "react";
+import toast from "react-hot-toast";
+import { CartContext } from "../../context/CartContext";
+import { MdDelete } from "react-icons/md";
+
 const Cart = () => {
-  const [cartItems, setCartItems] = useState([]);
-  const [subtotal, setSubtotal] = useState(0);
-  const [discount, setDiscount] = useState(20); // نسبة الخصم
-  const [deliveryFee, setDeliveryFee] = useState(15);
+  const { cartItems, removeFromCart, updateQuantity } = useContext(CartContext);
+  const [couponCode, setCouponCode] = useState("");
+  const [discount, setDiscount] = useState(0);
 
-  useEffect(() => {
-    const fetchCartItems = async () => {
+  const handleApplyCoupon = () => {
+    if (couponCode === "DISCOUNT20") {
+      setDiscount(30);
+      toast.success("Coupon applied successfully!");
+    } else {
+      alert("Invalid coupon");
+      setDiscount(0);
+    }
+  };
 
-      const response = await axios.get("https://jsonplaceholder.typicode.com/photos?_limit=3");
-      const fakeItems = response.data.map((item, index) => ({
-        id: item.id,
-        title: index === 0 ? "Gradient Graphic T-shirt" : index === 1 ? "Checkered Shirt" : "Skinny Fit Jeans",
-        price: index === 0 ? 145 : index === 1 ? 180 : 240,
-        size: index === 0 ? "Large" : index === 1 ? "Medium" : "Large",
-        color: index === 0 ? "White" : index === 1 ? "Red" : "Blue",
-        image: item.thumbnailUrl,
-        quantity: 1,
-      }));
-      setCartItems(fakeItems);
-    };
+  const handleRemove = (id) => {
+    removeFromCart(id);
+    toast.error("The product was removed successfully.");
+  };
 
-    fetchCartItems();
-  }, []);
+  const handleQuantityChange = (id, action) => {
+    updateQuantity(id, action);
+  };
 
-  useEffect(() => {
-    const total = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
-    setSubtotal(total);
-  }, [cartItems]);
-
-  const updateQuantity = (id, action) => {
-    setCartItems((prevItems) =>
-      prevItems.map((item) =>
-        item.id === id
-          ? {
-              ...item,
-              quantity: action === "increase" ? item.quantity + 1 : Math.max(1, item.quantity - 1),
-            }
-          : item
-      )
+  const calculateTotal = () => {
+    const subtotal = cartItems.reduce(
+      (acc, item) => acc + item.price * item.quantity,
+      0
     );
+    return subtotal - (subtotal * discount) / 100;
   };
-
-  const deleteItem = (id) => {
-    setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
-  };
-
-  const total = subtotal - (subtotal * discount) / 100 + deliveryFee;
 
   return (
     <div className="cart-container">
+      <h1>Your Cart</h1>
       <div className="cart-items">
-        <h1>Your Cart</h1>
-        {cartItems.map((item) => (
-          <div className="item" key={item.id}>
-            <img src={item.image} alt={item.title} />
-            <div className="item-info">
-              <h2>{item.title}</h2>
-              <p>Size: {item.size}</p>
-              <p>Color: {item.color}</p>
-              <strong>${item.price}</strong>
-            </div>
-            <div className="item-actions">
-              <button onClick={() => updateQuantity(item.id, "decrease")}>-</button>
-              <span>{item.quantity}</span>
-              <button onClick={() => updateQuantity(item.id, "increase")}>+</button>
-              <button className="delete" onClick={() => deleteItem(item.id)}>
-                🗑️
-              </button>
-            </div>
-          </div>
-        ))}
-      </div>
+        {cartItems.length > 0 ? (
+          cartItems.map((item) => (
+            <div className="item" key={item.id}>
+              <img src={item.image} alt={item.title} />
+              <div className="item-info">
+                <h2>{item.name}</h2>
+                <p>Size: {item.size}</p>
+                <p>Color: {item.color}</p>
 
+                <h6>Price: ${item.price * item.quantity}</h6>
+              </div>
+
+              <div className="quantity-controls">
+              <button onClick={() => handleRemove(item.id)} className="delete"><MdDelete /></button>
+
+                <div className="quantity-buttons">
+                  <button onClick={() => updateQuantity(item.id, "decrease")}>-</button>
+                  <span>{item.quantity}</span>
+                  <button onClick={() => updateQuantity(item.id, "increase")}>+</button>
+                </div>
+              </div>
+            </div>
+          ))
+        ) : (
+          <p className="empty">The Cart Is Empty...</p>
+        )}
+      </div>
 
       <div className="order-summary">
         <h2>Order Summary</h2>
         <p>
-          Subtotal: <span>${subtotal}</span>
+          Subtotal: $
+          {cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0)}
         </p>
-        <p className="discount">
-          Discount (-{discount}%): <span>-${(subtotal * discount) / 100}</span>
-        </p>
-        <p>
-          Delivery Fee: <span>${deliveryFee}</span>
-        </p>
-        <p className="total">
-          Total: <span>${total.toFixed(2)}</span>
-        </p>
+        <p  className="dis">Discount: {discount}%</p>
+        <p>Total: ${calculateTotal().toFixed(2)}</p>
         <div className="promo-code">
-          <input type="text" placeholder="Add promo code" />
-          <button>Apply</button>
+          <input
+            type="text"
+            value={couponCode}
+            onChange={(e) => setCouponCode(e.target.value)}
+            placeholder="Enter promo code"
+          />
+          <button onClick={handleApplyCoupon}>Apply</button>
         </div>
-        <button className="checkout">Go to Checkout →</button>
       </div>
     </div>
   );

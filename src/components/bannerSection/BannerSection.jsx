@@ -1,12 +1,15 @@
 import React from 'react'
 import Button from '../button/Button'
 export default function BannerSection() {
+
+   
   return (
     <section className='banner_section'>
         <div className='content'>
             <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
             <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
             <Button title={"Shop Now"} />
+            
             <div className='stats'>
                 <div>
                     <h2>200+</h2>
@@ -24,7 +27,7 @@ export default function BannerSection() {
             
         </div>
         <div className="image">
-                <img src="https://s3-alpha-sig.figma.com/img/b26f/ea69/ccfd8aa5825862cdb9604a4fb4930464?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bGbkApZPSr3T2OCQhzOYYTTdKBSYTPxYXyRSfliDcPC0fI2IozHggb5P2iDHhFs-jHGl7PoOs85kvk7wIeWv4GUSQvUI4e30C0WKgASAlJBOFKJ-O4Uno~PopqAO-Z6AqYDk7nQYhutjH81XzZ-zwQ9tPJjLqjljHsQOfXQm4OAgP1q1s6LlR7lPdbQeNulDk~z5trfdhlVz9P3YcH-4~d0HMm3cijgQTR9BXVzl8XRn1XkyMof~qyPco1r6n9F3Xd6k~fPLUXGaUkSLi3lh6n14tsdS8W9YtruU1aCaPpsoUszKJuQBlphiE0pHK6UAMFk6gD9xIMwiPFD02Ivh~A__" alt="" />
+                <img src="https://s3-alpha-sig.figma.com/img/b26f/ea69/ccfd8aa5825862cdb9604a4fb4930464?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZdDO3aGizO-wZt5YOgeQ~J6YYZ5VPfIEMLyM1FQtcOLXbkHRhZoDLkxD3IcS6wcRkTLoITyuV6Q9DHHg8C1jH0dC3riWszZeeI1C6~NdZYOHGHg3TCY6vwZHHtAXr1q6dITGpLqdoLnh7wwk5~HvaXn28Q3o~6fJC1TjLeN6p-vPmqU8uxbxbrLDz8McmAqJlR-rODizOep0o9-hk0wI8tA2F2cKWyawKk51pQpqeCFhT2Vy~LMy8x49dM3OqEdoH7GDwaVjXNHNDUISgTHqR5R3aGk7UvDOC2~EgVEiesdJCpR4jmdbZ~YrQQZ9Vxe~-Av7tVaozmJ0GLt15v4uUg__" alt="" />
             </div>
         <div className='brands'>
             <span>VERSE</span>

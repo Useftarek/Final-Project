@@ -1,224 +1,103 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Product A",
-            "price": 29.99,
-            "size": "medium",
-            "sale": "-10%",
-            "rating": 4.5,
-            "discount": 10,
-            "color": "Red",
-            "image": "https://img.freepik.com/free-photo/close-up-shot-red-hat-scarf-winter-stylish-coat-woman-who-enjoys-cold-autumn-season_1150-13475.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Product B",
-            "price": 49.99,
-            "size": "large",
-            "sale": "0%",
-            "rating": 3.8,
-            "discount": 15,
-            "color": "Blue",
-            "image": "https://img.freepik.com/free-photo/beautiful-close-up-spring-woman-flower-hair_1150-26478.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Product C",
-            "price": 19.99,
-            "size": "small",
-            "sale": "-5%",
-            "rating": 4.0,
-            "discount": 5,
-            "color": "Green",
-            "image": "https://img.freepik.com/free-photo/fashionable-woman-wearing-scarf-winter-autumn-clothing_1150-26195.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Product D",
-            "price": 39.99,
-            "size": "x-large",
-            "sale": "0%",
-            "rating": 4.7,
-            "discount": 20,
-            "color": "Yellow",
-            "image": "https://img.freepik.com/free-photo/stylish-woman-yellow-jacket-autumn-coat-warm-clothing-autumn-winter-fashion-trend_1150-24471.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Product E",
-            "price": 59.99,
-            "size": "medium",
-            "sale": "-25%",
-            "rating": 5.0,
-            "discount": 25,
-            "color": "Black",
-            "image": "https://img.freepik.com/free-photo/fashion-model-street-style-black-leather-jacket-girl-stylish-fashion-autumn_1150-24454.jpg"
-          },
-          {
-            "id": 6,
-            "name": "Product F",
-            "price": 69.99,
-            "size": "large",
-            "sale": "-30%",
-            "rating": 3.9,
-            "discount": 30,
-            "color": "White",
-            "image": "https://img.freepik.com/free-photo/sunshine-young-woman-white-dress-walking-street-wearable-fashion-dresses-casual-autumn-wear_1150-26610.jpg"
-          },
-          {
-            "id": 7,
-            "name": "Product G",
-            "price": 89.99,
-            "size": "x-large",
-            "sale": "0%",
-            "rating": 4.2,
-            "discount": 10,
-            "color": "Purple",
-            "image": "https://img.freepik.com/free-photo/sitting-woman-with-purple-pink-scarf_1150-13471.jpg"
-          },
-          {
-            "id": 8,
-            "name": "Product H",
-            "price": 99.99,
-            "size": "small",
-            "sale": "-40%",
-            "rating": 4.8,
-            "discount": 40,
-            "color": "Orange",
-            "image": "https://img.freepik.com/free-photo/beautiful-young-woman-oranges-background-hands-on-waist_1150-19044.jpg"
-          },
-          {
-            "id": 9,
-            "name": "Product I",
-            "price": 79.99,
-            "size": "medium",
-            "sale": "0%",
-            "rating": 3.5,
-            "discount": 15,
-            "color": "Pink",
-            "image": "https://img.freepik.com/free-photo/beautiful-young-woman-pink-dress_1150-19485.jpg"
-          },
-          {
-            "id": 10,
-            "name": "Product J",
-            "price": 39.99,
-            "size": "large",
-            "sale": "-10%",
-            "rating": 4.1,
-            "discount": 10,
-            "color": "Brown",
-            "image": "https://img.freepik.com/free-photo/beautiful-woman-coat-autumn-winter-fashion_1150-15749.jpg"
-          },
-          {
-            "id": 11,
-            "name": "Product K",
-            "price": 29.99,
-            "size": "x-large",
-            "sale": "-20%",
-            "rating": 4.6,
-            "discount": 20,
-            "color": "Grey",
-            "image": "https://img.freepik.com/free-photo/woman-with-glasses-wearing-grey-winter-coat_1150-14914.jpg"
-          },
-          {
-            "id": 12,
-            "name": "Product L",
-            "price": 19.99,
-            "size": "small",
-            "sale": "0%",
-            "rating": 3.7,
-            "discount": 5,
-            "color": "Beige",
-            "image": "https://img.freepik.com/free-photo/fashion-winter-trendy-woman-wearing-coat-hat_1150-24451.jpg"
-          },
-          {
-            "id": 13,
-            "name": "Product M",
-            "price": 49.99,
-            "size": "medium",
-            "sale": "-15%",
-            "rating": 4.3,
-            "discount": 15,
-            "color": "Gold",
-            "image": "https://img.freepik.com/free-photo/stylish-young-woman-coat-yellow-scarf_1150-24456.jpg"
-          },
-          {
-            "id": 14,
-            "name": "Product N",
-            "price": 59.99,
-            "size": "large",
-            "sale": "0%",
-            "rating": 4.2,
-            "discount": 10,
-            "color": "Silver",
-            "image": "https://img.freepik.com/free-photo/winter-woman-coat-scarf-beautiful_1150-24453.jpg"
-          },
-          {
-            "id": 15,
-            "name": "Product O",
-            "price": 79.99,
-            "size": "x-large",
-            "sale": "-25%",
-            "rating": 4.9,
-            "discount": 25,
-            "color": "Cyan",
-            "image": "https://img.freepik.com/free-photo/young-woman-autumn-coat_1150-17907.jpg"
-          },
-          {
-            "id": 16,
-            "name": "Product P",
-            "price": 89.99,
-            "size": "medium",
-            "sale": "0%",
-            "rating": 3.9,
-            "discount": 30,
-            "color": "Turquoise",
-            "image": "https://img.freepik.com/free-photo/portrait-young-woman-fur-hat-scarf-winter_1150-24450.jpg"
-          },
-          {
-            "id": 17,
-            "name": "Product Q",
-            "price": 69.99,
-            "size": "small",
-            "sale": "-40%",
-            "rating": 4.0,
-            "discount": 40,
-            "color": "Violet",
-            "image": "https://img.freepik.com/free-photo/young-woman-winter-jacket-gloves_1150-18133.jpg"
-          },
-          {
-            "id": 18,
-            "name": "Product R",
-            "price": 59.99,
-            "size": "large",
-            "sale": "0%",
-            "rating": 4.4,
-            "discount": 15,
-            "color": "Indigo",
-            "image": "https://img.freepik.com/free-photo/woman-winter-clothing-fashion-female-hat-scarf-coat_1150-24457.jpg"
-          },
-          {
-            "id": 19,
-            "name": "Product S",
-            "price": 99.99,
-            "size": "medium",
-            "sale": "-20%",
-            "rating": 4.5,
-            "discount": 20,
-            "color": "Mint",
-            "image": "https://img.freepik.com/free-photo/young-woman-winter-coat_1150-16222.jpg"
-          },
-          {
-            "id": 20,
-            "name": "Product T",
-            "price": 119.99,
-            "size": "x-large",
-            "sale": "0%",
-            "rating": 4.6,
-            "discount": 25,
-            "color": "Lavender",
-            "image": "https://img.freepik.com/free-photo/portrait-woman-winter-coat-scarf_1150-24469.jpg"
-          }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Gradient Graphic T-shirt",
+      "price": 50,
+      "size": "Large",
+      "sale": "-30%",
+      "rating": 4.0,
+      "discount": 90,
+      "color": "White",
+      "image": "https://s3-alpha-sig.figma.com/img/f04a/017d/b094f9a20c2328f54a31b153619784f3?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TdXM50mhn6bTCgy5ZIKXsA-QjkRV4OaWX-Cnze9In8KoiidKM66~GMFQpGbd092AChJXdOH87aE7q6hd4B1aki0Zz21BapPXWfD-ZAzl0lGNR~NulEIkdSnE0jX-oJqDrfSsv-jSbNtcdHYlXxSvFTZm-AB00loKN8T-Mhiy9cl866BvdooVFZzcYdQ~1RiMRLltq2fST3WpaC9SBLc~x-TGafP45Zx4drobNz~D3j59Pp9iOCBHkQ9haqy425Ct361dCDYxZr626Le81QLSCBQRdkwfU1Z2aniwh1PeZn~oL6HzotM1wzQDPrdZkY~jkuEs62dpjO-DdRcUCOah6Q__"
+    },
+    {
+      "id": 2,
+      "name": "Polo with Tipping Details",
+      "price": 200,
+      "size": "x-Large",
+      "sale": "-50%",
+      "rating": 4.0,
+      "discount": 100,
+      "color": "Purple",
+      "image": "https://s3-alpha-sig.figma.com/img/aecd/8196/485b30fd30b3226e09bb8f8e494c260b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E00uJe4ScIJlOs2OZBX804wKT5KHfRmXE85TrrOIBj2NsxTb9e-AI9Nz8BCZEjDXtB8GAh48M9m-2EpjFkQLUSO3oCc~OvsDJ241EMvsgtWKA4GDflZnmiEmXSqt~YLnZcnYLExdaZfQM51bJj3utafVWSBuNNIswABuvWmVBt1vMvveA~ua9KLPgdOoE2NjV3zhFFkwQ~OabH2NUXvySpDPyVzjMZRkpoCPjme~cSwNI2LZuBmnCei1MvoGRGuVUe6E6rQtwtcMjMBOPhcrpNgtx0IDmSX4SiGizGiDq-MpJuBZiM2qyX1lfFbuHR5iH4YW31927b~7rI7BC6c4wQ__"
+    },
+    {
+      "id": 3,
+      "name": "Black Striped T-shirt",
+      "price": 150,
+      "size": "Small",
+      "sale": "-30%",
+      "rating": 5.0,
+      "discount": 120,
+      "color": "White",
+      "image": "https://s3-alpha-sig.figma.com/img/6115/920b/12942762aefb7c7ac954e78b76284504?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GnB39R0poDoKWZVk7khTTTmcfh5KU-cvHy2m~8vJJhQFe6ExdCS-E70jqpei5gUbnr5nF9r2LTQ~09rrJsvnc4hbQztpuXBRvAMSxTmaDs~wB9EmwmTorwsWKBEMLHByHOcpL7mtAIxtXGltw5a1IlZfiHNzYcXE8azIvDc0WPCiwSa5H0Qgd3KFSHL9E65QbQG9uReF9mC1Fp5ZMsC8h~2f3bNgm4YiE6Z3MHMFgQyJqsgT1ulE4ldMv2CTwjXP9f5paEg2SgC55wX0xdJClZLS5s1PnKkyW7jot0U1TMd5J1g5T5CMv8Cxq17p1HfZB19f06~rwrhW4393RyMIWQ__"
+    },
+    {
+      "id": 4,
+      "name": "SKINNY FIT JEANS",
+      "price": 260,
+      "size": "Medium",
+      "sale": "20%",
+      "rating": 3.7,
+      "discount": 240,
+      "color": "Blue",
+      "image": "https://s3-alpha-sig.figma.com/img/769b/9d60/ff941dde9bc0e54431b8d8fe3182f5e9?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gqcLL5UmMTnyPt9DvALODCglbRkma8WTB8Wb2rSdpGwQgz1oRRxOHRn2a62WzfL6OZj-qqVtbbo3w~4L5zhulyuteZnnG~A0KlNk-SdSHYnPBDaU877kleeDQY2W7rKbK-bTuxi1wKKOYGtYGvBWQyKCkL8UcarLoe2mdZoDGeqx5W~EwlPeCPHh2cb9R9KHpZ2eSBRZQVI1t8fjGnT~s6G2QtgQM6U3KibhoZkasMAQDjX8PavjtMny7hsBRTGanVyprSXELRnwaPDwFBxNcc8y2tZ~IEm9ljqsr1wSaYyv2xxtIpCvpe~NEBbZ1w1Yt2sMM02fqNHbYyWuwlGIyA__"
+    },
+    {
+      "id": 5,
+      "name": "CHECKERED SHIRT",
+      "price": 120,
+      "size": "Medium",
+      "sale": "-25%",
+      "rating": 5.0,
+      "discount": 190,
+      "color": " Red",
+      "image": "https://s3-alpha-sig.figma.com/img/bbf4/11c2/5fc84f87eeac1062fbe47f49c192d4f2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j2zRJvvq9tM5IRPO74vJiPhtF6BOd5s0Ee3Tjh2MTz0N3-TFTRXDwXN2BbT8QXDf9mZeNYmStRD8tz5FJucFT-FSQfEPxGc09FJQRoLwRCGaFBB1LeLgUJVcrIRfZ3VH11QygxPv~Ihy~NAsplH7zOS7ctbN0F-YOTi7PiYM20RW6Z0dxEvMb-hX3fLiU0rCrASgKvYJ4jo~HYur0O4HfeQZJWCIwep~Rhjuq92NffqcGAZZl30rb-gFn5SQXQSMUfBQSvgeG3UFOrdQrHBX8ADmEB8Fw47vMdZzNmqd1UavVZ7htorOdB4SsccWqo2fc~DXzlAOqpsTMfYf9FIOJw__"
+    },
+    {
+      "id": 6,
+      "name": "SLEEVE STRIPED T-SHIRT",
+      "price": 160,
+      "size": "Large",
+      "sale": "-30%",
+      "rating": 3.9,
+      "discount": 130,
+      "color": "Orange",
+      "image": "https://s3-alpha-sig.figma.com/img/3457/42c2/7cc557f42cf1d489f7cc811856b90e9f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TtH9dFseVJHa~LsbYDgZvpO9lYcC3kbKcG-4gXhmXknILWHrbfdoYjnN7v9lUSqFbGdc1b7j~zZYzVOZyorZDVus5KTUrarfDdNlmpPdXKNwgzfwq7pzuAyvjKKJ2bKxOTGDvdFYE-2nsmq8Y5YKuDeNvtMFgT59Ozkzk0NkXA9roUN-gv9otcMT8xVKkQS3qIEt7B4XyBVy1yZNWSsCqFWgYJpdsobZgQlLWa3vsDTN5xqjVVjZQB440Opd-tSbc1XLtcYpZ6L7nG5GPsogJky0T1gcy2BnzDhWtGReQy2Xy7FtVfqOYXk0M2t7yQvZZoOLOIHKpERHCnpnwGoJlg__"
+    },
+    {
+      "id": 7,
+      "name": "VERTICAL STRIPED SHIRT",
+      "price": 232,
+      "size": "x-Large",
+      "sale": "20%",
+      "rating": 4.2,
+      "discount": 212,
+      "color": "Green",
+      "image": "https://s3-alpha-sig.figma.com/img/e01f/5d3c/d9029bd465a4c7158689ab1619693014?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EueWyrVgo~G9vpRlqYVlc87xzLb~lxIXuaSokQ-20rq9jjlugTUiakaOK2wNatYl9gU2sBnyQmcfg4YQMZJB~XRSRSVrCCisf6Aeq0si00DTBP~2Eyuo510FzCz8Ii9wutCo1LWVDVUTIXnfgOvPd9bHn5CPwUvg6wPtRrjOJRVXuGGDHwiH2TOqBG8y8KibQmVaCzDr1ez14dCzuB8DBEW4nB48pK8Donobr1IpGLAwx4sCieDUXFBsJa-Cn2-uvv34gh7LeDFZI~zG39efErs6p1qhBufGIP63Zdfhs8U1saPKrYyvrqEkFJDdwP289UCeel~JUtBtz1zaG85eZg__"
+    },
+    {
+      "id": 8,
+      "name": "COURAGE GRAPHIC T-SHIRT",
+      "price": 99.99,
+      "size": "Small",
+      "sale": "-40%",
+      "rating": 4.8,
+      "discount": 40,
+      "color": "Orange",
+      "image": "https://s3-alpha-sig.figma.com/img/5723/4b01/d5fcac5632cf6823570ca2d1d53d7d73?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g9Wr9HtnDWeGaQudQyHB7mjjfkAjuWvJdTPQCyNh6Kh1LyyV5tWyN0~FvrnNZibnzhwc1IWNi6EI2xgnnmq-v6eRRzUV3ScZuYzcPEyaYuIuEsv4cMbhPLn9wYu5lxDOtuWZkUNo3hcO4VDOCEoa8UIF6WXdINnCH9XPlwi5IlBtTrmYGeMcokvZAGJ93nEjS7cUctEf-9vyT8POmrUEKnC-2HDS25dcFlfKowt80D5Mi338FrcXxmAtyi9Ut7Pmm9sKQNgGhOV~LcENR0TvCEE--wLSGQ6BiO6k4h3i9WQOjjKwKEskEXE6J~PINniTbldzmUZp25H0iC9ud6Lp7A__"
+    },
+    {
+      "id": 9,
+      "name": "LOOSE FIT BERMUDA SHORTS",
+      "price": 50,
+      "size": "Medium",
+      "sale": "50%",
+      "rating": 3.5,
+      "discount": 100,
+      "color": "Blue",
+      "image": "https://s3-alpha-sig.figma.com/img/8951/5d71/4a66d9ca1401101dee4cc689f8bb5ad2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LsTpGVGo3iiHrKUtY-SniBMxRhG2oU5H7NBAuSM-vdr85to8XkEUsa-6odPRuPYkxzS6hBAdwFfqK8TFLtZByuV-J9auXa0OoYjkAeVTjSFNnsjjkUkXybByJXKnfuU3FF8BXEQcclLcpk0~le4sdqBK8rmUvUUj0TWmAdDYTYBHfqBGxKmqNpXhP2YAGkiPgF~IJllRrfNH7tQSU5TMjsRX2Tg4FsNis0cNx4CUUGfvUssidiB-EHt-hC38kpF38ZLlydYC3vZGcbXEztfV-iXJQg3IeXmLAWeJliQ8dOT5em~OY2cBKQpaBtKUIYx6YZ1xWIStnUAZO6tM3MbanA__"
+    }
+  ]
 }

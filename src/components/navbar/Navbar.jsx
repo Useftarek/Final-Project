@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
-import { IoIosArrowDown, IoMdCart } from 'react-icons/io'
-import { FaSearch, FaUser } from 'react-icons/fa'
-import { NavLink, useNavigate } from 'react-router-dom'
-import SearchSection from '../search/SearchSection'
-import { IoCloseSharp, IoMenuSharp } from 'react-icons/io5'
+import React, { useContext, useState } from "react";
+import { IoIosArrowDown, IoMdCart } from "react-icons/io";
+import { FaSearch, FaUser } from "react-icons/fa";
+import { NavLink, useNavigate } from "react-router-dom";
+import SearchSection from "../search/SearchSection";
+import { IoCloseSharp, IoMenuSharp } from "react-icons/io5";
+import { CartContext } from "../../context/CartContext";
+
 export default function Navbar() {
- 
+  const { cartCount } = useContext(CartContext);
   const navigate = useNavigate();
   const goToCart = () => {
     navigate("/cart");
@@ -14,16 +16,16 @@ export default function Navbar() {
   const [isMenu, setIsMenu] = useState(false);
   const toggleMenu = () => {
     setIsMenu(!isMenu);
-  }
+  };
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
-  }
+  };
 
   return (
-    <div className='navbar'>
+    <div className="navbar">
       <div>
-        <IoMenuSharp className='menu' onClick={toggleMenu} />
+        <IoMenuSharp className="menu" onClick={toggleMenu} />
         {isMenu && (
           <div className="fullscreen-menu">
             <IoCloseSharp className="close-icon" onClick={toggleMenu} />
@@ -33,10 +35,13 @@ export default function Navbar() {
               </li>
               <li>
                 <NavLink to={"/"} onClick={toggleDropdown}>
-                  Shop <IoIosArrowDown className={`item_arrow ${isOpen ? 'rotate' : ''}`} />
+                  Shop{" "}
+                  <IoIosArrowDown
+                    className={`item_arrow ${isOpen ? "rotate" : ""}`}
+                  />
                 </NavLink>
                 {isOpen && (
-                  <ul className='dropdown_menu'>
+                  <ul className="dropdown_menu">
                     <li>
                       <NavLink to="/ProductDetailsPage">Products</NavLink>
                     </li>
@@ -60,16 +65,19 @@ export default function Navbar() {
         )}
       </div>
       <h2>T.Shop</h2>
-      <ul className='nav_links'>
+      <ul className="nav_links">
         <li>
           <NavLink to={"/"}>Home</NavLink>
         </li>
         <li>
           <NavLink to={"/"} onClick={toggleDropdown}>
-            Shop <IoIosArrowDown className={`item_arrow ${isOpen ? 'rotate' : ''}`} />
+            Shop{" "}
+            <IoIosArrowDown
+              className={`item_arrow ${isOpen ? "rotate" : ""}`}
+            />
           </NavLink>
           {isOpen && (
-            <ul className='dropdown_menu' >
+            <ul className="dropdown_menu">
               <li>
                 <NavLink to="/ProductDetailsPage">Products</NavLink>
               </li>
@@ -90,13 +98,12 @@ export default function Navbar() {
         </li>
       </ul>
       <SearchSection />
-      <div className='icons'>
-        <FaSearch className='icon' />
-        <IoMdCart
-        onClick={goToCart}
-      />
+      <div className="icons">
+        <FaSearch className="icon" />
+        <IoMdCart onClick={goToCart} />
+        <span className="user">{cartCount}</span>
         <FaUser />
       </div>
     </div>
-  )
+  );
 }

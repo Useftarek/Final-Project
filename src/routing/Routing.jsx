@@ -6,12 +6,14 @@ import CategoryPage from "../Pages/categoryPage/CategoryPage";
 import CartPage from "../Pages/cartPage/CartPage";
 
 export const Routing = createBrowserRouter([
-    {path: "/", element: <Layout  /> , children: [
-
-        {index: true, element: <HomePage />},
-        {path: "/ProductDetailsPage", element: <ProductDetailsPage /> },
-        {path: "/category", element: <CategoryPage />},
-        {path: "Cart", element: <CartPage />},
-    ]},
-    
-    ])
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <HomePage /> },
+      { path: "/ProductDetailsPage", element: <ProductDetailsPage /> },
+      { path: "/category", element: <CategoryPage /> },
+      { path: "/cart", element: <CartPage /> },
+    ],
+  },
+]);

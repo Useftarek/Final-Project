@@ -12,6 +12,17 @@
     border-radius: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
+    .button {
+      background-color: $second-color;
+      color: $main-color;
+      margin-top: 1em;
+      padding: 10px 30px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 2em;
+      cursor: pointer;
+      
+  }
     .price {
       font-size: 1.1rem;
       font-weight: 400;
