@@ -3,8 +3,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { getAllProducts } from '../../api/FetchAPI.Js';
 import { useNavigate } from 'react-router-dom';
+import { getAllProducts } from '../../api/FetchAPI';
 
 export default function TopSellingSection() {
   const { data, isLoading, isError } = getAllProducts();
