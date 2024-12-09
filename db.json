@@ -120,5 +120,11 @@
       "image": "https://s3-alpha-sig.figma.com/img/fce6/58e0/c17a220fe8bfb1126626f3ab58a761ec?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mdCRDq-iZ2glV~ZfoXmKJ1FZyy~SkXSkAjzKCXE6c12nFxBrgOWlB-LT7v43WgKPMk94rL523OUry9q9oTptEZ0biiiTfvj~TmfHcxhnSwM44s7brRuOarJfQpq~X4NkneAdbXHZizrmszvl9eUpjzOdKGBp530QOw8xwXtGy4dU4HZj~5fYyNhnL8XML0mu4p8ammx06ygfGe0cHa8n1J4YQVyWqANYnAKESV2flnPSEevcX55zR5CS22J7KomXsgctb-vCYYmzs9ybHMmZZrMuvPw0tSiBYXi0w5EyMwi9q0Q1ivjlJohtp4LXzXAfdKv4ng7mCAehZWyq4At7FA__",
       "desc": "Gym"
     }
+  ],
+  "banner": [
+    {
+      "id": 14,
+      "image": "https://s3-alpha-sig.figma.com/img/b26f/ea69/ccfd8aa5825862cdb9604a4fb4930464?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZdDO3aGizO-wZt5YOgeQ~J6YYZ5VPfIEMLyM1FQtcOLXbkHRhZoDLkxD3IcS6wcRkTLoITyuV6Q9DHHg8C1jH0dC3riWszZeeI1C6~NdZYOHGHg3TCY6vwZHHtAXr1q6dITGpLqdoLnh7wwk5~HvaXn28Q3o~6fJC1TjLeN6p-vPmqU8uxbxbrLDz8McmAqJlR-rODizOep0o9-hk0wI8tA2F2cKWyawKk51pQpqeCFhT2Vy~LMy8x49dM3OqEdoH7GDwaVjXNHNDUISgTHqR5R3aGk7UvDOC2~EgVEiesdJCpR4jmdbZ~YrQQZ9Vxe~-Av7tVaozmJ0GLt15v4uUg__"
+    }
   ]
 }

@@ -2,12 +2,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { useNavigate } from 'react-router-dom';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { getAllProducts } from '../../api/FetchAPI.Js';
 
 export default function ArrivalSection() {
   const { data, isLoading, isError } = getAllProducts();
-
+  const navigate = useNavigate();
+  const goToSecondPage = () => {
+    navigate('/category');
+  };
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -49,7 +53,7 @@ export default function ArrivalSection() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <button className="view-all">View All</button>
+      <button className="view-all"onClick={goToSecondPage}>View All</button>
     </section>
   );
 }

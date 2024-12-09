@@ -14,3 +14,10 @@ export const getDressImages = () => {
     queryFn: () => AxiosConfig.get("/dress"),
   });
 };
+
+export const getBanner = () => {
+  return useQuery({
+    queryKey: ['banner'],
+    queryFn: () => AxiosConfig.get("/banner"),
+  });
+};
