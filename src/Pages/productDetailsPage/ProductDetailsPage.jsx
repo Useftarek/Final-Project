@@ -29,7 +29,7 @@ export default function ProductDetailsPage() {
   return (
     <Fragment>
       <div className="product_details_page">
-        <Product_Images image={ProductsData.image} />
+        <Product_Images image={ProductsData.image} themb1 = {ProductsData.themb1} themb2 = {ProductsData.themb2} themb3 = {ProductsData.themb3} />
         <Products_Details_Content title ={ProductsData.name} price={ProductsData.price} description={ProductsData.description} sale ={ProductsData.sale} dicount = {ProductsData.discount} rating = {ProductsData.rating} color = {ProductsData.color} size = {ProductsData.size} />
       </div>
       <div>
