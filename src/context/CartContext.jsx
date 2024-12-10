@@ -13,13 +13,11 @@ export const CartProvider = ({ children }) => {
         existingItem.quantity += 1;
         return [...prevItems];
       } else {
-        setCartCount((prevCount) => prevCount + 1); // استخدام القيمة السابقة
+        setCartCount((prevCount) => prevCount + 1);
         return [...prevItems, { ...product, quantity: 1 }];
       }
     });
   };
-  
-
 
   const removeFromCart = (id) => {
     setCartItems((prevItems) => {
@@ -27,33 +25,36 @@ export const CartProvider = ({ children }) => {
       const removedItem = prevItems.find((item) => item.id === id);
       if (removedItem) {
         setCartCount((prevCount) =>
-          Math.max(prevCount - removedItem.quantity, 0) // منع السالب
+          Math.max(prevCount - removedItem.quantity, 0)
         );
       }
       return updatedItems;
     });
   };
-  
 
   const updateQuantity = (id, action) => {
     setCartItems((prevItems) => {
-      return prevItems.map((item) => {
+      const updatedItems = prevItems.map((item) => {
         if (item.id === id) {
           if (action === "increase") {
-            item.quantity += 1;
-            setCartCount((prevCount) => prevCount + 1); // استخدام القيمة السابقة
+            return { ...item, quantity: item.quantity + 1 };
           } else if (action === "decrease" && item.quantity > 1) {
-            item.quantity -= 1;
-            setCartCount((prevCount) =>
-              Math.max(prevCount - 1, 0) // منع السالب
-            );
+            return { ...item, quantity: item.quantity - 1 };
           }
         }
         return item;
       });
+
+      const newCartCount = updatedItems.reduce(
+        (acc, item) => acc + item.quantity,
+        0
+      );
+
+      setCartCount(newCartCount);
+
+      return updatedItems;
     });
   };
-  
 
   return (
     <CartContext.Provider

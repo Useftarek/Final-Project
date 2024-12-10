@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 const ClothingItems = () => {
   const { data, isLoading, isError } = getAllProducts();
   const { addToCart } = useContext(CartContext);
-  const { incrementCart } = useContext(CartContext);
   const navigate = useNavigate();
 
   const handleNavigate = (id) => {
@@ -22,8 +21,7 @@ const ClothingItems = () => {
   }
   const handleAddToCart = (product) => {
     addToCart(product);
-    incrementCart();
-    toast.success("Product added successfully!");
+    toast.success("The product was added successfully");
   };
 
   return (
