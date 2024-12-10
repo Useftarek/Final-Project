@@ -57,9 +57,6 @@ export default function Navbar() {
               <li>
                 <NavLink to={"/category"}>Category</NavLink>
               </li>
-              <li>
-                <NavLink to={"/y"}>Brands</NavLink>
-              </li>
             </ul>
           </div>
         )}
@@ -79,22 +76,13 @@ export default function Navbar() {
           {isOpen && (
             <ul className="dropdown_menu">
               <li>
-                <NavLink to="/ProductDetailsPage">Products</NavLink>
-              </li>
-              <li>
-                <NavLink to="/Cart">Cart</NavLink>
-              </li>
-              <li>
-                <NavLink to="/aa">Category 3</NavLink>
+                <NavLink to="/Cart"> Shopping Cart</NavLink>
               </li>
             </ul>
           )}
         </li>
         <li>
           <NavLink to={"/category"}>Category</NavLink>
-        </li>
-        <li>
-          <NavLink to={"/y"}>Brands</NavLink>
         </li>
       </ul>
       <SearchSection />

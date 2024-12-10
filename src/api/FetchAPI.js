@@ -21,3 +21,9 @@ export const getBanner = () => {
     queryFn: () => AxiosConfig.get("/banner"),
   });
 };
+export const getSingleProduct = (id) => {
+  return useQuery({
+    queryKey: ["product" , id],
+    queryFn: () => AxiosConfig.get(`/products/${id}`),
+  });
+};

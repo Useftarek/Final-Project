@@ -11,7 +11,7 @@ export const Routing = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: "/ProductDetailsPage", element: <ProductDetailsPage /> },
+      { path: "/ProductDetailsPage/:id", element: <ProductDetailsPage /> },
       { path: "/category", element: <CategoryPage /> },
       { path: "/cart", element: <CartPage /> },
     ],

@@ -1,102 +1,112 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Gradient Graphic T-shirt",
       "price": 50,
       "size": "Large",
       "sale": "-30%",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
-      "discount": 90,
+      "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5",
+      "discount": 80,
       "color": "White",
-      "image": "https://s3-alpha-sig.figma.com/img/f04a/017d/b094f9a20c2328f54a31b153619784f3?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TdXM50mhn6bTCgy5ZIKXsA-QjkRV4OaWX-Cnze9In8KoiidKM66~GMFQpGbd092AChJXdOH87aE7q6hd4B1aki0Zz21BapPXWfD-ZAzl0lGNR~NulEIkdSnE0jX-oJqDrfSsv-jSbNtcdHYlXxSvFTZm-AB00loKN8T-Mhiy9cl866BvdooVFZzcYdQ~1RiMRLltq2fST3WpaC9SBLc~x-TGafP45Zx4drobNz~D3j59Pp9iOCBHkQ9haqy425Ct361dCDYxZr626Le81QLSCBQRdkwfU1Z2aniwh1PeZn~oL6HzotM1wzQDPrdZkY~jkuEs62dpjO-DdRcUCOah6Q__"
+      "image": "https://s3-alpha-sig.figma.com/img/f04a/017d/b094f9a20c2328f54a31b153619784f3?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TdXM50mhn6bTCgy5ZIKXsA-QjkRV4OaWX-Cnze9In8KoiidKM66~GMFQpGbd092AChJXdOH87aE7q6hd4B1aki0Zz21BapPXWfD-ZAzl0lGNR~NulEIkdSnE0jX-oJqDrfSsv-jSbNtcdHYlXxSvFTZm-AB00loKN8T-Mhiy9cl866BvdooVFZzcYdQ~1RiMRLltq2fST3WpaC9SBLc~x-TGafP45Zx4drobNz~D3j59Pp9iOCBHkQ9haqy425Ct361dCDYxZr626Le81QLSCBQRdkwfU1Z2aniwh1PeZn~oL6HzotM1wzQDPrdZkY~jkuEs62dpjO-DdRcUCOah6Q__",
+      "description": "A trendy gradient graphic T-shirt made from premium cotton. Perfect for casual outings or layering with a jacket."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Polo with Tipping Details",
       "price": 200,
       "size": "x-Large",
       "sale": "-50%",
-      "rating": "⭐️⭐️⭐️⭐️",
+      "rating": "⭐️⭐️⭐️⭐️ 4/5",
       "discount": 100,
       "color": "Purple",
-      "image": "https://s3-alpha-sig.figma.com/img/aecd/8196/485b30fd30b3226e09bb8f8e494c260b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E00uJe4ScIJlOs2OZBX804wKT5KHfRmXE85TrrOIBj2NsxTb9e-AI9Nz8BCZEjDXtB8GAh48M9m-2EpjFkQLUSO3oCc~OvsDJ241EMvsgtWKA4GDflZnmiEmXSqt~YLnZcnYLExdaZfQM51bJj3utafVWSBuNNIswABuvWmVBt1vMvveA~ua9KLPgdOoE2NjV3zhFFkwQ~OabH2NUXvySpDPyVzjMZRkpoCPjme~cSwNI2LZuBmnCei1MvoGRGuVUe6E6rQtwtcMjMBOPhcrpNgtx0IDmSX4SiGizGiDq-MpJuBZiM2qyX1lfFbuHR5iH4YW31927b~7rI7BC6c4wQ__"
+      "image": "https://s3-alpha-sig.figma.com/img/aecd/8196/485b30fd30b3226e09bb8f8e494c260b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E00uJe4ScIJlOs2OZBX804wKT5KHfRmXE85TrrOIBj2NsxTb9e-AI9Nz8BCZEjDXtB8GAh48M9m-2EpjFkQLUSO3oCc~OvsDJ241EMvsgtWKA4GDflZnmiEmXSqt~YLnZcnYLExdaZfQM51bJj3utafVWSBuNNIswABuvWmVBt1vMvveA~ua9KLPgdOoE2NjV3zhFFkwQ~OabH2NUXvySpDPyVzjMZRkpoCPjme~cSwNI2LZuBmnCei1MvoGRGuVUe6E6rQtwtcMjMBOPhcrpNgtx0IDmSX4SiGizGiDq-MpJuBZiM2qyX1lfFbuHR5iH4YW31927b~7rI7BC6c4wQ__",
+      "description": "This stylish polo with tipping details offers a refined yet sporty look. Ideal for semi-formal or casual occasions."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Black Striped T-shirt",
       "price": 150,
       "size": "Small",
       "sale": "-30%",
-      "rating": "⭐️⭐️",
+      "rating": "⭐️⭐️ 2/5",
       "discount": 120,
       "color": "White",
-      "image": "https://s3-alpha-sig.figma.com/img/6115/920b/12942762aefb7c7ac954e78b76284504?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GnB39R0poDoKWZVk7khTTTmcfh5KU-cvHy2m~8vJJhQFe6ExdCS-E70jqpei5gUbnr5nF9r2LTQ~09rrJsvnc4hbQztpuXBRvAMSxTmaDs~wB9EmwmTorwsWKBEMLHByHOcpL7mtAIxtXGltw5a1IlZfiHNzYcXE8azIvDc0WPCiwSa5H0Qgd3KFSHL9E65QbQG9uReF9mC1Fp5ZMsC8h~2f3bNgm4YiE6Z3MHMFgQyJqsgT1ulE4ldMv2CTwjXP9f5paEg2SgC55wX0xdJClZLS5s1PnKkyW7jot0U1TMd5J1g5T5CMv8Cxq17p1HfZB19f06~rwrhW4393RyMIWQ__"
+      "image": "https://s3-alpha-sig.figma.com/img/6115/920b/12942762aefb7c7ac954e78b76284504?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GnB39R0poDoKWZVk7khTTTmcfh5KU-cvHy2m~8vJJhQFe6ExdCS-E70jqpei5gUbnr5nF9r2LTQ~09rrJsvnc4hbQztpuXBRvAMSxTmaDs~wB9EmwmTorwsWKBEMLHByHOcpL7mtAIxtXGltw5a1IlZfiHNzYcXE8azIvDc0WPCiwSa5H0Qgd3KFSHL9E65QbQG9uReF9mC1Fp5ZMsC8h~2f3bNgm4YiE6Z3MHMFgQyJqsgT1ulE4ldMv2CTwjXP9f5paEg2SgC55wX0xdJClZLS5s1PnKkyW7jot0U1TMd5J1g5T5CMv8Cxq17p1HfZB19f06~rwrhW4393RyMIWQ__",
+      "description": "A modern black striped T-shirt crafted for a sleek and versatile wardrobe addition. Pair it with jeans or chinos for a smart look."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "SKINNY FIT JEANS",
       "price": 260,
       "size": "Medium",
       "sale": "20%",
-      "rating": "⭐️⭐️⭐️",
+      "rating": "⭐️⭐️⭐️ 3/5",
       "discount": 240,
       "color": "Blue",
-      "image": "https://s3-alpha-sig.figma.com/img/769b/9d60/ff941dde9bc0e54431b8d8fe3182f5e9?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gqcLL5UmMTnyPt9DvALODCglbRkma8WTB8Wb2rSdpGwQgz1oRRxOHRn2a62WzfL6OZj-qqVtbbo3w~4L5zhulyuteZnnG~A0KlNk-SdSHYnPBDaU877kleeDQY2W7rKbK-bTuxi1wKKOYGtYGvBWQyKCkL8UcarLoe2mdZoDGeqx5W~EwlPeCPHh2cb9R9KHpZ2eSBRZQVI1t8fjGnT~s6G2QtgQM6U3KibhoZkasMAQDjX8PavjtMny7hsBRTGanVyprSXELRnwaPDwFBxNcc8y2tZ~IEm9ljqsr1wSaYyv2xxtIpCvpe~NEBbZ1w1Yt2sMM02fqNHbYyWuwlGIyA__"
+      "image": "https://s3-alpha-sig.figma.com/img/769b/9d60/ff941dde9bc0e54431b8d8fe3182f5e9?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gqcLL5UmMTnyPt9DvALODCglbRkma8WTB8Wb2rSdpGwQgz1oRRxOHRn2a62WzfL6OZj-qqVtbbo3w~4L5zhulyuteZnnG~A0KlNk-SdSHYnPBDaU877kleeDQY2W7rKbK-bTuxi1wKKOYGtYGvBWQyKCkL8UcarLoe2mdZoDGeqx5W~EwlPeCPHh2cb9R9KHpZ2eSBRZQVI1t8fjGnT~s6G2QtgQM6U3KibhoZkasMAQDjX8PavjtMny7hsBRTGanVyprSXELRnwaPDwFBxNcc8y2tZ~IEm9ljqsr1wSaYyv2xxtIpCvpe~NEBbZ1w1Yt2sMM02fqNHbYyWuwlGIyA__",
+      "description": "These skinny fit jeans offer a comfortable and stylish look, perfect for everyday wear or a night out."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "CHECKERED SHIRT",
       "price": 120,
       "size": "Medium",
       "sale": "-25%",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5",
       "discount": 190,
-      "color": " Red",
-      "image": "https://s3-alpha-sig.figma.com/img/bbf4/11c2/5fc84f87eeac1062fbe47f49c192d4f2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j2zRJvvq9tM5IRPO74vJiPhtF6BOd5s0Ee3Tjh2MTz0N3-TFTRXDwXN2BbT8QXDf9mZeNYmStRD8tz5FJucFT-FSQfEPxGc09FJQRoLwRCGaFBB1LeLgUJVcrIRfZ3VH11QygxPv~Ihy~NAsplH7zOS7ctbN0F-YOTi7PiYM20RW6Z0dxEvMb-hX3fLiU0rCrASgKvYJ4jo~HYur0O4HfeQZJWCIwep~Rhjuq92NffqcGAZZl30rb-gFn5SQXQSMUfBQSvgeG3UFOrdQrHBX8ADmEB8Fw47vMdZzNmqd1UavVZ7htorOdB4SsccWqo2fc~DXzlAOqpsTMfYf9FIOJw__"
+      "color": "Red",
+      "image": "https://s3-alpha-sig.figma.com/img/bbf4/11c2/5fc84f87eeac1062fbe47f49c192d4f2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j2zRJvvq9tM5IRPO74vJiPhtF6BOd5s0Ee3Tjh2MTz0N3-TFTRXDwXN2BbT8QXDf9mZeNYmStRD8tz5FJucFT-FSQfEPxGc09FJQRoLwRCGaFBB1LeLgUJVcrIRfZ3VH11QygxPv~Ihy~NAsplH7zOS7ctbN0F-YOTi7PiYM20RW6Z0dxEvMb-hX3fLiU0rCrASgKvYJ4jo~HYur0O4HfeQZJWCIwep~Rhjuq92NffqcGAZZl30rb-gFn5SQXQSMUfBQSvgeG3UFOrdQrHBX8ADmEB8Fw47vMdZzNmqd1UavVZ7htorOdB4SsccWqo2fc~DXzlAOqpsTMfYf9FIOJw__",
+      "description": "A classic checkered shirt that combines vibrant colors and timeless design. Suitable for casual or semi-formal settings."
     },
     {
-      "id": 6,
-      "name": "SLEEVE STRIPED T-SHIRT",
+      "id": "6",
+      "name": "Sleeve Striped T-shirt",
       "price": 160,
       "size": "Large",
       "sale": "-30%",
-      "rating": "⭐️⭐️⭐️⭐️",
+      "rating": "⭐️⭐️⭐️⭐️ 4/5",
       "discount": 130,
       "color": "Orange",
-      "image": "https://s3-alpha-sig.figma.com/img/3457/42c2/7cc557f42cf1d489f7cc811856b90e9f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TtH9dFseVJHa~LsbYDgZvpO9lYcC3kbKcG-4gXhmXknILWHrbfdoYjnN7v9lUSqFbGdc1b7j~zZYzVOZyorZDVus5KTUrarfDdNlmpPdXKNwgzfwq7pzuAyvjKKJ2bKxOTGDvdFYE-2nsmq8Y5YKuDeNvtMFgT59Ozkzk0NkXA9roUN-gv9otcMT8xVKkQS3qIEt7B4XyBVy1yZNWSsCqFWgYJpdsobZgQlLWa3vsDTN5xqjVVjZQB440Opd-tSbc1XLtcYpZ6L7nG5GPsogJky0T1gcy2BnzDhWtGReQy2Xy7FtVfqOYXk0M2t7yQvZZoOLOIHKpERHCnpnwGoJlg__"
+      "image": "https://s3-alpha-sig.figma.com/img/3457/42c2/7cc557f42cf1d489f7cc811856b90e9f?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Wv8Hwd6uZKfUjFgEnlGTQYUC3s30hsUipVo0FxSXqSrEkiEiMmStneHQpQLjT7PeS3y7u9KkO-tnuKw3Fa~V6eYW0AXoJiknZKr3bUuWCMgE3ZOuqgG~ILUNM2wTvS6FaJl-ZlRRpxwzgS~VwYWm-~6eQi3VJSbdKxSjvuuQL3TyNcKybo3k4iwf5p4t~7-RdI1BU5TxO11C83SJdJbkov35ETTmhsYf12vGCjFZHnt4ztFtf0cVZjplYGBnwVEtmRIMin7EfxQF~m1hBoR~GNsbIICDL4VL0xG9YSTkQZ2w5C1YJhFjZ9pPTgVbhKm6gNsQvpXrnFcqBMpNBhfA__",
+      "description": "A cozy hooded sweatshirt made from high-quality fleece. Perfect for keeping warm during chilly days."
     },
     {
-      "id": 7,
-      "name": "VERTICAL STRIPED SHIRT",
-      "price": 232,
-      "size": "x-Large",
-      "sale": "20%",
-      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "id": "7",
+      "name": "Vertical Striped Shirt",
+      "price": 220,
+      "size": "Medium",
+      "sale": "-15%",
+      "rating": "⭐️⭐️⭐️ 3/5",
       "discount": 212,
       "color": "Green",
-      "image": "https://s3-alpha-sig.figma.com/img/e01f/5d3c/d9029bd465a4c7158689ab1619693014?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EueWyrVgo~G9vpRlqYVlc87xzLb~lxIXuaSokQ-20rq9jjlugTUiakaOK2wNatYl9gU2sBnyQmcfg4YQMZJB~XRSRSVrCCisf6Aeq0si00DTBP~2Eyuo510FzCz8Ii9wutCo1LWVDVUTIXnfgOvPd9bHn5CPwUvg6wPtRrjOJRVXuGGDHwiH2TOqBG8y8KibQmVaCzDr1ez14dCzuB8DBEW4nB48pK8Donobr1IpGLAwx4sCieDUXFBsJa-Cn2-uvv34gh7LeDFZI~zG39efErs6p1qhBufGIP63Zdfhs8U1saPKrYyvrqEkFJDdwP289UCeel~JUtBtz1zaG85eZg__"
+      "image": "https://s3-alpha-sig.figma.com/img/e01f/5d3c/d9029bd465a4c7158689ab1619693014?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SAvhuHJx5gUnalgPEyX-ovy4xJY0em90BiYUvb0Zhf1-Hfpod6qOKxKOPtET7CwOdFppjcOTrUHY6yX0BkVNIom5ioMSwpGFWWeUEyyNDE19E2jnP8p1z101lVHHKZRNg3WocYcsa~CymkNzEsDVvPBo-0iXrqrt6NiAM6ZyxEqrq74-cDu~poc95ZkevxOV96CTuRj0oVQ1pEiw2qlirHi~g91mXy6YUrOkJQWVjj~hNA-zY2Mo9gOQx1C0YZIf910KQJFoQMZOYu-HeL37ZjDrmlMLRHuTzPtyh1JccfozR2OUrXaiIEk~4MMwM3HGeuJFPzpbtkpCn0Z27NTTOg__",
+      "description": "Tailored slim fit trousers designed for a sleek and modern look. Ideal for both office and casual outings."
     },
     {
-      "id": 8,
-      "name": "COURAGE GRAPHIC T-SHIRT",
-      "price": 99.99,
-      "size": "Small",
-      "rating": "⭐️⭐️⭐️⭐️",
-      "discount": 40,
+      "id": "8",
+      "name": "Courage Graphic T-shirt",
+      "price": 500,
+      "size": "Large",
+      "sale": "-40%",
+      "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5",
+      "discount": 300,
       "color": "Orange",
-      "image": "https://s3-alpha-sig.figma.com/img/5723/4b01/d5fcac5632cf6823570ca2d1d53d7d73?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g9Wr9HtnDWeGaQudQyHB7mjjfkAjuWvJdTPQCyNh6Kh1LyyV5tWyN0~FvrnNZibnzhwc1IWNi6EI2xgnnmq-v6eRRzUV3ScZuYzcPEyaYuIuEsv4cMbhPLn9wYu5lxDOtuWZkUNo3hcO4VDOCEoa8UIF6WXdINnCH9XPlwi5IlBtTrmYGeMcokvZAGJ93nEjS7cUctEf-9vyT8POmrUEKnC-2HDS25dcFlfKowt80D5Mi338FrcXxmAtyi9Ut7Pmm9sKQNgGhOV~LcENR0TvCEE--wLSGQ6BiO6k4h3i9WQOjjKwKEskEXE6J~PINniTbldzmUZp25H0iC9ud6Lp7A__"
+      "image": "https://s3-alpha-sig.figma.com/img/5723/4b01/d5fcac5632cf6823570ca2d1d53d7d73?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RPA8sVhqEDae1stCaElmvCYIbg8B25yY6zXSKWuwVnxqYbRZEeHyiCzI9WkcstVrI7YV-BrFHTXsSm9tFJlboh0cJf9pPcJmXACoGTPbwIII~afFKmaxmUiY2GVwjr-PjNrsB-75~R7yBKjEYC-liOxELIoD8VFrWxrc453s7BjuRhwr-HuPSzjuPGuSIlWavjX7WhtHeI0EnzyYMBmniIao6yBRWAwjQ2baE9-8aMxb~VcL0rvqI6kc5zzscCDvbl46UDFvcIkpnke3HwHZ0RsYEWDjXVo7hLqlaktTa1sZn134xCnL1SSW8z7-41gL~VjLyV2-sy7l4-ooLI4FuA__",
+      "description": "Lightweight and comfortable sports sneakers, designed to provide excellent support for your active lifestyle."
     },
     {
-      "id": 9,
-      "name": "LOOSE FIT BERMUDA SHORTS",
-      "price": 50,
-      "size": "Medium",
-      "sale": "50%",
-      "rating": "⭐️",
-      "discount": 100,
-      "color": "Blue",
-      "image": "https://s3-alpha-sig.figma.com/img/8951/5d71/4a66d9ca1401101dee4cc689f8bb5ad2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LsTpGVGo3iiHrKUtY-SniBMxRhG2oU5H7NBAuSM-vdr85to8XkEUsa-6odPRuPYkxzS6hBAdwFfqK8TFLtZByuV-J9auXa0OoYjkAeVTjSFNnsjjkUkXybByJXKnfuU3FF8BXEQcclLcpk0~le4sdqBK8rmUvUUj0TWmAdDYTYBHfqBGxKmqNpXhP2YAGkiPgF~IJllRrfNH7tQSU5TMjsRX2Tg4FsNis0cNx4CUUGfvUssidiB-EHt-hC38kpF38ZLlydYC3vZGcbXEztfV-iXJQg3IeXmLAWeJliQ8dOT5em~OY2cBKQpaBtKUIYx6YZ1xWIStnUAZO6tM3MbanA__"
+      "id": "9",
+      "name": "Loose Fit Bermuda Shorts",
+      "price": 80,
+      "size": "x-Large",
+      "sale": "-25%",
+      "rating": "⭐️⭐️⭐️⭐️ 4/5",
+      "discount": 56,
+      "color": "blue",
+      "image": "https://s3-alpha-sig.figma.com/img/8951/5d71/4a66d9ca1401101dee4cc689f8bb5ad2?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JX8-Sjl3IPkwIqd2-4tfn8wc6ghPnCc~I~40xFq3NaRbU51mLZk7EgY-IYjSrxmvUW-AZ2qAvVT6XRX1GVkSbQNexW-LeKUJinA15jQV0V3sZOyDBR-eH9OhWKD~eAY0Fx~UbnDq2T9j4loZq4aBrQHtSokAYtI1ITJh3DTzyI2hVhnNVgY0WucsXEM8~MqsgUf96BR~R8qf1yGAtXv7llMgLWAKQUXRqm~z1EFdX3ogMthMJHv9-7oOHyHf0--GH65n2~RXynpVt5YpUdLFjaAEACfXph5mxjjjham4iSWYagzJ5CYgn8YQYjUKwmQ3VLdaqYuSrPwZy0QokF~63w__",
+      "description": "A premium leather jacket with a classic design. Adds a touch of elegance to your wardrobe."
     }
   ],
   "dress": [
