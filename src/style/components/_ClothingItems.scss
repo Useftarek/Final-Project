@@ -38,7 +38,7 @@
 
   @media (min-width: 768px) {
     .clothing-items .clothing-item {
-      flex: 1 1 calc(33.333% - 10px);
+      flex: 1 1 calc(30% - 10px);
       padding: 8px;
 
       img {
@@ -62,7 +62,7 @@
     }
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1919px) {
     .clothing-items {
       gap: 7px;
     }
@@ -72,11 +72,11 @@
       flex-wrap: wrap;
       gap: 10px;
       padding: 10px;
-
+      background: red;
+      width: 100%;
       .clothing-item {
         border-radius: 2em;
-
-        width: 130px;
+        
 
         img {
           max-height: 550px;

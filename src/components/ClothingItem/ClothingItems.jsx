@@ -34,15 +34,15 @@ export default function ClothingItems() {
 
   const handleAddToCart = (product) => {
     addToCart(product);
-    toast.success("تمت إضافة المنتج بنجاح");
+    toast.success("Product Add Succfuly");
   };
 
   if (isLoading) {
-    return <div>جاري التحميل...</div>;
+    return <div>Loaging....</div>;
   }
 
   if (isError) {
-    return <div>خطأ في جلب المنتجات</div>;
+    return <div>Error</div>;
   }
 
   return (
@@ -68,7 +68,7 @@ export default function ClothingItems() {
           </div>
         ))}
         {filteredProducts.length === 0 && (
-          <div className="no-products">لا توجد منتجات مطابقة للفلتر</div>
+          <div className="no-products">There are no products matching the filters</div>
         )}
       </div>
     </div>
