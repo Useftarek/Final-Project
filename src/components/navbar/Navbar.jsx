@@ -90,7 +90,7 @@ export default function Navbar() {
         <FaSearch className="icon" />
         <IoMdCart onClick={goToCart} />
         <span className="user">{cartCount}</span>
-        <FaUser />
+        <NavLink to={"/login"}> <FaUser /> </NavLink>
       </div>
     </div>
   );

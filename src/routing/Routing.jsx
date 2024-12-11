@@ -4,6 +4,7 @@ import HomePage from "../Pages/homePage/HomePage";
 import ProductDetailsPage from "../Pages/productDetailsPage/ProductDetailsPage";
 import CategoryPage from "../Pages/categoryPage/CategoryPage";
 import CartPage from "../Pages/cartPage/CartPage";
+import Login from "../Pages/loginPage/Login";
 
 export const Routing = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ export const Routing = createBrowserRouter([
       { path: "/ProductDetailsPage/:id", element: <ProductDetailsPage /> },
       { path: "/category", element: <CategoryPage /> },
       { path: "/cart", element: <CartPage /> },
+      {path: "/login", element: <Login />}
     ],
   },
 ]);

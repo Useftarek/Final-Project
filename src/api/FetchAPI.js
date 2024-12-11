@@ -27,3 +27,4 @@ export const getSingleProduct = (id) => {
     queryFn: () => AxiosConfig.get(`/products/${id}`),
   });
 };
+

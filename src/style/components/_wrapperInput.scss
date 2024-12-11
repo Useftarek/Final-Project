@@ -1,0 +1,15 @@
+.wrapper_input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 3em;
+    input {
+        height: 3.5em;
+        border: 0;
+        outline: 0;
+        background: $color-bg;
+        padding-inline-start: 1.5em;
+        border-radius: .8em;
+    }
+}

@@ -1,0 +1,22 @@
+.login_page {
+  padding-block: 4em;
+  h6 {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  form {
+    width: 50%;
+    margin: auto;
+    .button {
+        background-color: $second-color;
+        color: $main-color;
+        padding: 15px 50px;
+        border: none;
+        font-size: 1rem;
+        border-radius: 2em;
+        cursor: pointer;
+        margin-bottom: 40px;
+  }
+}
+}
