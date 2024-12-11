@@ -63,7 +63,7 @@ export default function ClothingItems() {
               <span className="original">${product.price}</span>
             </div>
             <button onClick={() => handleAddToCart(product)} className="button">
-              أضف للسلة
+              Add To Cart
             </button>
           </div>
         ))}

@@ -46,11 +46,10 @@ export default function FilterMenu({ onFilterChange }) {
 
   return (
     <div className="filter-menu open">
-      <h3>التصفية</h3>
+      <h3>Filter</h3>
 
-      {/* فلتر السعر */}
       <div className="filter-section">
-        <h4>السعر</h4>
+        <h4>Price</h4>
         <input
           type="range"
           min="50"
@@ -63,9 +62,9 @@ export default function FilterMenu({ onFilterChange }) {
         </div>
       </div>
 
-      {/* فلتر اللون */}
+
       <div className="filter-section colors">
-        <h4>الألوان</h4>
+        <h4>Colors</h4>
         <div className="color-options">
           {availableColors.map((color) => (
             <button
@@ -78,9 +77,9 @@ export default function FilterMenu({ onFilterChange }) {
         </div>
       </div>
 
-      {/* فلتر الحجم */}
+
       <div className="filter-section sizes">
-        <h4>الأحجام</h4>
+        <h4>Sizes</h4>
         {availableSizes.map((size) => (
           <button
             key={size}

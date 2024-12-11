@@ -15,7 +15,29 @@
       border-radius: 4px;
       transition: all 0.3s ease;
       cursor: pointer;
+      .price {
+        font-size: 1.1rem;
+        font-weight: 400;
 
+        .discounted {
+          color: $second-color;
+        }
+
+        .original {
+          text-decoration: line-through;
+          color: #a7a5a5;
+          margin: 0 5px;
+        }
+
+        .discount {
+          font-size: 0.9rem;
+          color: $sale-color;
+          border-radius: 20px;
+          padding: 3px 10px;
+          border: 1px solid $sale-color;
+          background: rgba(255, 0, 0, 0.342);
+        }
+      }
       img {
         max-width: 100%;
         height: auto;
@@ -32,6 +54,17 @@
       p {
         color: #555;
         font-size: 0.9em;
+      }
+      .button {
+        background-color: $second-color;
+        color: $main-color;
+        margin-top: 1.5em;
+        padding: 11px 40px;
+        border: none;
+        font-size: 1rem;
+        border-radius: 2em;
+        cursor: pointer;
+        margin-bottom: 40px;
       }
     }
   }
@@ -75,7 +108,6 @@
       width: 100%;
       .clothing-item {
         border-radius: 2em;
-        
 
         img {
           max-height: 550px;
