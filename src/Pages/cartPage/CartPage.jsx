@@ -15,7 +15,7 @@ export default function Cart() {
       setDiscount(30);
       toast.success("Coupon applied successfully!");
     } else {
-      alert("Invalid coupon");
+      toast.error("Invalid coupon")
       setDiscount(0);
     }
   };

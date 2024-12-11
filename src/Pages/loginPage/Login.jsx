@@ -4,10 +4,33 @@ import WrapperInput from "../../components/wrapperInput/WrapperInput";
 import { LoginValidation } from "../../validations/Validations";
 import { useMutation } from "@tanstack/react-query";
 import { AxiosConfig } from "../../axios/AxiosConfig";
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
+  const navigate = useNavigate();
+
   const loginMutation = useMutation({
-    mutationFn: (data) => AxiosConfig.post("/login", data),
+    mutationFn: async (values) => {
+      const response = await AxiosConfig.get("/login");
+      const user = response.data.find(
+        (user) =>
+          user.email === values.email && user.password === values.password
+      );
+
+      if (user) {
+        return { success: true };
+      } else {
+        throw new Error("Email or password incorrect");
+      }
+    },
+    onSuccess: () => {
+      toast.success("Login successful");
+      navigate("/");
+    },
+    onError: (error) => {
+      toast.error(error.message || "Server error, please try again later.");
+    },
   });
 
   const initialValues = {
@@ -15,27 +38,15 @@ export default function Login() {
     password: "",
   };
 
-  const onSubmit = async (values) => {
-    try {
-      const response = await AxiosConfig.get(`/login`);
-
-      const user = response.data.find(
-        (user) => user.email === values.email && user.password === values.password
-      );
-
-      if (user) {
-        console.log("Logged in successfully:", user);
-      } else {
-        alert("Email or password incorrect");
-      }
-    } catch (error) {
-      console.error("Error during login:", error);
-    }
+  const onSubmit = (values, { resetForm }) => {
+    loginMutation.mutate(values, {
+      onError: () => null
+    });
   };
 
   return (
     <div className="login_page px">
-      <h6>Register</h6>
+      <h6>Login</h6>
       <Formik
         validationSchema={LoginValidation}
         initialValues={initialValues}
