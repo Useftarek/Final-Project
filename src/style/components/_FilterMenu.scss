@@ -1,14 +1,11 @@
 .filter-menu {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px;
   border-radius: 2em;
   transition: all 0.3s ease;
   background: $color-bg;
-  &.open {
-    display: block;
-    
-  }
+
 
   h3 {
     font-size: 1.25em;
@@ -115,3 +112,9 @@
 }
 
 
+@media (max-width: 768px) {
+  .filter-menu {
+    display: none;
+  }
+  
+}

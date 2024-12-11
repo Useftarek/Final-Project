@@ -38,9 +38,9 @@ export default function Login() {
     password: "",
   };
 
-  const onSubmit = (values, { resetForm }) => {
+  const onSubmit = (values) => {
     loginMutation.mutate(values, {
-      onError: () => null
+      onError: () => null,
     });
   };
 
