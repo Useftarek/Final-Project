@@ -3,7 +3,7 @@ import { getAllProducts } from "../../api/FetchAPI";
 import { CartContext } from "../../context/CartContext";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-const ClothingItems = () => {
+export default function ClothingItems() {
   const { data, isLoading, isError } = getAllProducts();
   const { addToCart } = useContext(CartContext);
   const navigate = useNavigate();
@@ -48,6 +48,4 @@ const ClothingItems = () => {
       ))}
     </div>
   );
-};
-
-export default ClothingItems;
+}

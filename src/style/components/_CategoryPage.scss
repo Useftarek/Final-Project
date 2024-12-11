@@ -9,10 +9,7 @@
     .filter-toggle-btn {
       display: none;
     }
-
   }
-
-  
 
   img {
     max-width: 100%;
@@ -28,12 +25,10 @@
   }
 }
 
-
 @media (max-width: 768px) {
-
   .category-container {
     flex-direction: column;
-    
+
     .filter-toggle-btn {
       display: block;
       margin-top: 20px;
@@ -48,5 +43,4 @@
   .clothing-items {
     width: 100%;
   }
-
 }

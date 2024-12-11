@@ -1,18 +1,18 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import { useNavigate } from 'react-router-dom';
-import { getAllProducts } from '../../api/FetchAPI';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
+import { getAllProducts } from "../../api/FetchAPI";
 
 export default function TopSellingSection() {
   const { data, isLoading, isError } = getAllProducts();
   const navigate = useNavigate();
 
   const goToPage = () => {
-    navigate('/category')
-  }
+    navigate("/category");
+  };
   if (isLoading) {
     return <div>Loading...</div>;
   }
@@ -54,7 +54,9 @@ export default function TopSellingSection() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <button className="view-all" onClick={goToPage}>View All</button>
+      <button className="view-all" onClick={goToPage}>
+        View All
+      </button>
     </section>
   );
 }

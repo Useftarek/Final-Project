@@ -1,29 +1,29 @@
-import { useQuery } from "@tanstack/react-query"
-import { AxiosConfig } from "../axios/AxiosConfig"
+import { useQuery } from "@tanstack/react-query";
+import { AxiosConfig } from "../axios/AxiosConfig";
 
 export const getAllProducts = () => {
   return useQuery({
-        queryKey: ['product'],
-        queryFn:  () => AxiosConfig("/products"),
-    })
+    queryKey: ["product"],
+    queryFn: () => AxiosConfig("/products"),
+  });
 };
 
 export const getDressImages = () => {
   return useQuery({
-    queryKey: ['dress'],
+    queryKey: ["dress"],
     queryFn: () => AxiosConfig.get("/dress"),
   });
 };
 
 export const getBanner = () => {
   return useQuery({
-    queryKey: ['banner'],
+    queryKey: ["banner"],
     queryFn: () => AxiosConfig.get("/banner"),
   });
 };
 export const getSingleProduct = (id) => {
   return useQuery({
-    queryKey: ["product" , id],
+    queryKey: ["product", id],
     queryFn: () => AxiosConfig.get(`/products/${id}`),
   });
 };

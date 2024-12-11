@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const FilterMenu = ({ onFilterChange }) => {
+export default function FilterMenu({ onFilterChange }) {
   const [price, setPrice] = useState(200);
-  const [selectedColor, setSelectedColor] = useState('');
-  const [selectedSize, setSelectedSize] = useState('');
+  const [selectedColor, setSelectedColor] = useState("");
+  const [selectedSize, setSelectedSize] = useState("");
 
   const handleApplyFilter = () => {
-    onFilterChange('price', price);
-    onFilterChange('color', selectedColor);
-    onFilterChange('size', selectedSize);
+    onFilterChange("price", price);
+    onFilterChange("color", selectedColor);
+    onFilterChange("size", selectedSize);
   };
 
   const handleColorSelect = (color) => {
@@ -45,11 +45,21 @@ const FilterMenu = ({ onFilterChange }) => {
       <div className="filter-section colors">
         <h4>Colors</h4>
         <div className="color-options">
-          {['green', 'blue', 'yellow', 'orange', 'red', 'cyan', 'black', 'white', 'pink'].map((color) => (
+          {[
+            "green",
+            "blue",
+            "yellow",
+            "orange",
+            "red",
+            "cyan",
+            "black",
+            "white",
+            "pink",
+          ].map((color) => (
             <button
               key={color}
               style={{ backgroundColor: color }}
-              className={selectedColor === color ? 'selected' : ''}
+              className={selectedColor === color ? "selected" : ""}
               onClick={() => handleColorSelect(color)}
             />
           ))}
@@ -57,11 +67,13 @@ const FilterMenu = ({ onFilterChange }) => {
       </div>
 
       <div className="filter-section sizes">
-        <div><h4>Size</h4></div>
-        {[ 'Small', 'Medium', 'Large', 'X-Large'].map((size) => (
+        <div>
+          <h4>Size</h4>
+        </div>
+        {["Small", "Medium", "Large", "X-Large"].map((size) => (
           <button
             key={size}
-            className={selectedSize === size ? 'selected' : ''}
+            className={selectedSize === size ? "selected" : ""}
             onClick={() => handleSizeSelect(size)}
           >
             {size}
@@ -84,6 +96,4 @@ const FilterMenu = ({ onFilterChange }) => {
       </button>
     </div>
   );
-};
-
-export default FilterMenu;
+}

@@ -1,62 +1,59 @@
 .search {
-    position: relative;
-    
+  position: relative;
 }
 
 .search_input_result {
-    width: 100%;
-    height: 12em;
-    border: 1px solid rgba($color: $second-color, $alpha: 0.2);
-    background: $color-bg;
-    position: absolute;
-    overflow: hidden;
-    bottom: -12.5em;
-    border-radius: .8em;
-    padding: 1em;
-    overflow-y: scroll;
-    
+  width: 100%;
+  height: 12em;
+  border: 1px solid rgba($color: $second-color, $alpha: 0.2);
+  background: $color-bg;
+  position: absolute;
+  overflow: hidden;
+  bottom: -12.5em;
+  border-radius: 0.8em;
+  padding: 1em;
+  overflow-y: scroll;
 }
 
 .no_result_text {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.9em;
-    font-weight: 600;
-    color: rgba($color: $second-color, $alpha: 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9em;
+  font-weight: 600;
+  color: rgba($color: $second-color, $alpha: 0.3);
 }
 
 .search_result {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    border-bottom: 1px solid rgba($color: $second-color, $alpha: 0.2);
-    padding-block: 1em;
-    
-    .search_result_image {
-        width: 3.5em;
-        height: 3.5em;
-        background: green;
-        border-radius: .5em;
-        flex-shrink: 0;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-    }
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-bottom: 1px solid rgba($color: $second-color, $alpha: 0.2);
+  padding-block: 1em;
 
-    .search_result_title{
-        h4{
-            font-size: 1em;
-            font-weight: 400;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
+  .search_result_image {
+    width: 3.5em;
+    height: 3.5em;
+    background: green;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
+  }
+
+  .search_result_title {
+    h4 {
+      font-size: 1em;
+      font-weight: 400;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
 }

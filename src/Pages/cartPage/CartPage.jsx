@@ -4,13 +4,14 @@ import toast from "react-hot-toast";
 import { CartContext } from "../../context/CartContext";
 import { MdDelete } from "react-icons/md";
 
-const Cart = () => {
+export default function Cart() {
   const { cartItems, removeFromCart, updateQuantity } = useContext(CartContext);
   const [couponCode, setCouponCode] = useState("");
   const [discount, setDiscount] = useState(0);
 
   const handleApplyCoupon = () => {
     if (couponCode === "DISCOUNT20") {
+      // كوبون الديسكونت للتذكير
       setDiscount(30);
       toast.success("Coupon applied successfully!");
     } else {
@@ -53,12 +54,21 @@ const Cart = () => {
               </div>
 
               <div className="quantity-controls">
-              <button onClick={() => handleRemove(item.id)} className="delete"><MdDelete /></button>
+                <button
+                  onClick={() => handleRemove(item.id)}
+                  className="delete"
+                >
+                  <MdDelete />
+                </button>
 
                 <div className="quantity-buttons">
-                  <button onClick={() => updateQuantity(item.id, "decrease")}>-</button>
+                  <button onClick={() => updateQuantity(item.id, "decrease")}>
+                    -
+                  </button>
                   <span>{item.quantity}</span>
-                  <button onClick={() => updateQuantity(item.id, "increase")}>+</button>
+                  <button onClick={() => updateQuantity(item.id, "increase")}>
+                    +
+                  </button>
                 </div>
               </div>
             </div>
@@ -74,7 +84,7 @@ const Cart = () => {
           Subtotal: $
           {cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0)}
         </p>
-        <p  className="dis">Discount: {discount}%</p>
+        <p className="dis">Discount: {discount}%</p>
         <p>Total: ${calculateTotal().toFixed(2)}</p>
         <div className="promo-code">
           <input
@@ -88,6 +98,4 @@ const Cart = () => {
       </div>
     </div>
   );
-};
-
-export default Cart;
+}

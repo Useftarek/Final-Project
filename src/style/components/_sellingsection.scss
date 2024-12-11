@@ -1,6 +1,6 @@
-.top_selling  {
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
+.top_selling {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
   .title {
     font-size: 2rem;
     font-weight: bold;
@@ -13,14 +13,12 @@
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;
-
-   
   }
 
   .view-all {
     margin-top: 30px;
     padding: 16px 54px;
-    border: 1px solid #0000001A;
+    border: 1px solid #0000001a;
     border-radius: 62px;
     background-color: transparent;
     cursor: pointer;
@@ -28,27 +26,21 @@
     transition: background-color 0.3s;
 
     &:hover {
-      
       background: $color-bg;
     }
   }
 }
 
 hr {
-  border: 1px solid #0000001A;
+  border: 1px solid #0000001a;
   margin: 50px 0;
-  padding-inline: 60px ;
+  padding-inline: 60px;
 }
-
-
-
-
 
 .swiper {
   width: 100%;
   height: auto;
 }
-
 
 .swiper-slide {
   display: flex;
@@ -56,13 +48,11 @@ hr {
   align-items: center;
 }
 
-
 .product img {
   width: 100%;
   height: auto;
-  object-fit: cover; 
+  object-fit: cover;
 }
-
 
 .product {
   padding: 20px;
@@ -100,7 +90,6 @@ hr {
     }
 
     .discount {
-      
       font-size: 0.9rem;
       color: $sale-color;
       border-radius: 20px;
@@ -110,5 +99,3 @@ hr {
     }
   }
 }
-
-

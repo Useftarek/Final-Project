@@ -1,22 +1,21 @@
 import React from "react";
 import Button from "../button/Button";
-import { use } from "react";
 import { useNavigate } from "react-router-dom";
 import { getBanner } from "../../api/FetchAPI";
 
 export default function BannerSection() {
-    const navigate = useNavigate();
-    const {data , isLoading , isError} = getBanner();
-    const goToShop = () => {
-        navigate('/category')
-    }
+  const navigate = useNavigate();
+  const { data, isLoading, isError } = getBanner();
+  const goToShop = () => {
+    navigate("/category");
+  };
 
-    if (isLoading) {
-        return <p>Loading</p>
-    }
-    if(isError) {
-        return <p>Error</p>
-    }
+  if (isLoading) {
+    return <p>Loading</p>;
+  }
+  if (isError) {
+    return <p>Error</p>;
+  }
   return (
     <section className="banner_section">
       <div className="content">
@@ -43,7 +42,9 @@ export default function BannerSection() {
           </div>
         </div>
       </div>
-      <div className="image"><img src={data?.data[0].image}/></div>
+      <div className="image">
+        <img src={data?.data[0].image} />
+      </div>
       <div className="brands">
         <span>VERSE</span>
         <span>ZARA</span>
