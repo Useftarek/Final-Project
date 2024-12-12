@@ -48,7 +48,9 @@ export default function ClothingItems() {
   return (
     <div className="product-container">
       <FilterMenu onFilterChange={handleFilterChange} />
-
+      {filteredProducts.length === 0 && (
+          <div className="no-products"><h6>There Are No Products Compatible With The Filters</h6></div>
+        )}
       <div className="clothing-items py">
         {filteredProducts.map((product) => (
           <div className="clothing-item" key={product.id}>
@@ -67,9 +69,7 @@ export default function ClothingItems() {
             </button>
           </div>
         ))}
-        {filteredProducts.length === 0 && (
-          <div className="no-products">There are no products matching the filters</div>
-        )}
+        
       </div>
     </div>
   );

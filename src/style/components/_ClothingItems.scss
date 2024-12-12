@@ -1,7 +1,15 @@
 .product-container {
   display: flex;
-
   gap: 20px;
+  .no-products {
+    width: 900px;
+    padding-inline: 3em;
+    h6 {
+      text-align: center;
+      padding: 2em;
+      min-width: 500px;
+    }
+  }
   .clothing-items {
     display: flex;
     flex-wrap: wrap;
