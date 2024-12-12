@@ -4,31 +4,28 @@ import SearchResult from "./SearchResult";
 import { getAllProducts } from "../../api/FetchAPI";
 
 export default function SearchSection() {
-  const [searchTerm, setSearchTerm] = useState(""); // حالة النص في شريط البحث
-  const [products, setProducts] = useState([]); // حالة المنتجات من السيرفر
-  const [filteredProducts, setFilteredProducts] = useState([]); // المنتجات المفلترة
+  const [searchTerm, setSearchTerm] = useState("");
+  const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
 
-  // جلب المنتجات من JSON Server
   const { data, isLoading, isError } = getAllProducts();
   const ProductsData = data?.data || [];
   console.log("All Products: ", ProductsData);
 
-  // تحديث قائمة المنتجات عند تحميلها
   useEffect(() => {
     if (ProductsData.length) {
-      setProducts(ProductsData); 
+      setProducts(ProductsData);
     }
   }, [ProductsData]);
 
-  // تصفية المنتجات حسب النص المُدخل (تظهر فقط المنتجات التي تبدأ بالحرف المدخل)
   useEffect(() => {
     if (searchTerm.trim() === "") {
-      setFilteredProducts([]); // لا تعرض أي نتائج عند المسح
+      setFilteredProducts([]);
     } else {
       const filtered = products.filter((product) =>
         product.name.toLowerCase().startsWith(searchTerm.toLowerCase())
       );
-      console.log("Filtered Products: ", filtered); // تحقق من الفلترة
+      console.log("Filtered Products: ", filtered);
       setFilteredProducts(filtered);
     }
   }, [searchTerm, products]);
@@ -40,11 +37,10 @@ export default function SearchSection() {
           type="text"
           placeholder="Search"
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)} // تتبع النص
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <CiSearch />
       </div>
-      {/* عرض النتائج فقط عند وجود نص */}
       {searchTerm && (
         <div className="search_input_result">
           <SearchResult results={filteredProducts} />
