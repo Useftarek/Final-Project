@@ -8,7 +8,6 @@ export default function ReviewSection() {
   const { id } = useParams();
   const { data, isLoading, isError } = getSingleProduct(id);
   const ProductsData = data?.data;
-  // const navigate = useNavigate();
   console.log(ProductsData);
 
   const [activeTab, setActiveTab] = useState("review");
