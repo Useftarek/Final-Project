@@ -30,7 +30,19 @@
 
   .content {
     padding: 1rem;
-
+    .faqs {
+      font-family: "Josefin Sans", sans-serif;
+      text-align: center;
+      margin-top: .7em;
+      h3{
+        padding-bottom: .5em;
+        font-size: 2em;
+      }
+      p{
+        padding: .5em;
+        font-size: 1.4em;
+      }
+    }
     .reviews {
       display: flex;
       align-items: center;
