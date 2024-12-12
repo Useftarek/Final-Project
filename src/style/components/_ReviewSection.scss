@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ddd;
-
     gap: 3em;
     button {
       display: flex;
@@ -33,14 +32,15 @@
     .faqs {
       font-family: "Josefin Sans", sans-serif;
       text-align: center;
-      margin-top: .7em;
+      margin-top: .8em;
       h3{
-        padding-bottom: .5em;
+        padding-bottom: 2em;
         font-size: 2em;
       }
       p{
-        padding: .5em;
+        padding: .6em;
         font-size: 1.4em;
+        margin-bottom: 2em;
       }
     }
     .reviews {

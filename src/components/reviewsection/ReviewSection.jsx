@@ -52,10 +52,10 @@ export default function ReviewSection() {
             {isLoading && <p>Loading reviews...</p>}
             {isError && <p>Error loading product details</p>}
             <div className="reviews">
-              {product?.reviews?.length > 0 ? (
-                product.reviews.map((review, index) => (
+              {ProductsData?.reviews?.length > 0 ? (
+                ProductsData.reviews.map((review, index) => (
                   <div key={index} className="review-card">
-                    <span className="rating">{review.rating || "⭐"}</span>
+                    <span className="rating">{review.rating}</span>
                     <h3>
                       {review.name} <span className="verified">✔️</span>
                     </h3>
@@ -73,9 +73,13 @@ export default function ReviewSection() {
         {activeTab === "faqs" && (
           <div className="faqs">
             <h3>Frequently Asked Questions</h3>
-            <p>Q: What is the fabric composition?</p>
-            <p>A: 100% Cotton</p>
+            
+            <h6>Q: What material is the Gradient Graphic T-shirt made of?</h6>
+            <p>A:The T-shirt is made from premium-quality cotton, ensuring softness and durability for everyday wear.</p>
+            <h6>Q2: Are the sizes true to fit?</h6>
+            <p>A: Yes, the T-shirt is designed to fit true to size. Please refer to our size chart for detailed measurements.</p>
           </div>
+          
         )}
       </div>
     </div>

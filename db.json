@@ -12,7 +12,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/f04a/017d/b094f9a20c2328f54a31b153619784f3?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TdXM50mhn6bTCgy5ZIKXsA-QjkRV4OaWX-Cnze9In8KoiidKM66~GMFQpGbd092AChJXdOH87aE7q6hd4B1aki0Zz21BapPXWfD-ZAzl0lGNR~NulEIkdSnE0jX-oJqDrfSsv-jSbNtcdHYlXxSvFTZm-AB00loKN8T-Mhiy9cl866BvdooVFZzcYdQ~1RiMRLltq2fST3WpaC9SBLc~x-TGafP45Zx4drobNz~D3j59Pp9iOCBHkQ9haqy425Ct361dCDYxZr626Le81QLSCBQRdkwfU1Z2aniwh1PeZn~oL6HzotM1wzQDPrdZkY~jkuEs62dpjO-DdRcUCOah6Q__",
       "description": "A trendy gradient graphic T-shirt made from premium cotton. Perfect for casual outings or layering with a jacket.",
       "themb2": "https://media.centrepointstores.com/i/centrepoint/3521367-HQ154032-SPWIN24270224_01-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-d-prt-pdp-2x$",
-      "themb3": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/Q54163s.jpg?im=Resize,width=750"
+      "themb3": "https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/Q54163s.jpg?im=Resize,width=750",
+      "reviews": [
+        {
+          "name": "Samantha D.",
+          "comment": "I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.",
+          "date": "Posted on August 14, 2023",
+          "rating":"⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Alex M.",
+          "comment": "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me.",
+          "date": "Posted on August 15, 2023",
+          "rating":"⭐️⭐️⭐️⭐️ 4/5"
+        },
+        {
+          "name": "Ethan R.",
+          "comment": "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.",
+          "date": "Posted on August 16, 2023",
+          "rating":"⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "Olivia P.",
+          "comment": "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out.",
+          "date": "Posted on August 17, 2023",
+          "rating":"⭐️⭐️⭐️⭐️⭐️ 5/5"
+        }
+      ]
     },
     {
       "id": "2",
@@ -26,7 +52,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/aecd/8196/485b30fd30b3226e09bb8f8e494c260b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E00uJe4ScIJlOs2OZBX804wKT5KHfRmXE85TrrOIBj2NsxTb9e-AI9Nz8BCZEjDXtB8GAh48M9m-2EpjFkQLUSO3oCc~OvsDJ241EMvsgtWKA4GDflZnmiEmXSqt~YLnZcnYLExdaZfQM51bJj3utafVWSBuNNIswABuvWmVBt1vMvveA~ua9KLPgdOoE2NjV3zhFFkwQ~OabH2NUXvySpDPyVzjMZRkpoCPjme~cSwNI2LZuBmnCei1MvoGRGuVUe6E6rQtwtcMjMBOPhcrpNgtx0IDmSX4SiGizGiDq-MpJuBZiM2qyX1lfFbuHR5iH4YW31927b~7rI7BC6c4wQ__",
       "description": "This stylish polo with tipping details offers a refined yet sporty look. Ideal for semi-formal or casual occasions.",
       "themb2": "https://sa.redtagfashion.com/cdn/shop/files/129702337-1-Brown_20Soft_20Touch_20Polo_20Shirt_20With_20Tipping_20at_20Collar_20_20and_20_20Cuff.jpg?v=1724932080",
-      "themb3": "https://sa.redtagfashion.com/cdn/shop/files/129702337-3-Brown_20Soft_20Touch_20Polo_20Shirt_20With_20Tipping_20at_20Collar_20_20and_20_20Cuff.jpg?v=1724932168"
+      "themb3": "https://sa.redtagfashion.com/cdn/shop/files/129702337-3-Brown_20Soft_20Touch_20Polo_20Shirt_20With_20Tipping_20at_20Collar_20_20and_20_20Cuff.jpg?v=1724932168",
+      "reviews": [
+          {
+            "name": "Sophia L.",
+            "comment": "Absolutely love this T-shirt! The fit is perfect, and the gradient design adds a unique touch to my wardrobe. The quality is evident in the fabric, and it feels comfortable for all-day wear. Highly recommended for anyone looking for something stylish yet practical.",
+            "date": "Posted on August 1, 2023",
+            "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+          },
+          {
+            "name": "Liam J.",
+            "comment": "Great value for the price. This T-shirt quickly became my go-to for casual outings. The material feels durable, and it holds up well after multiple washes. The gradient design gets compliments every time. Definitely worth the purchase!",
+            "date": "Posted on August 2, 2023",
+            "rating": "⭐️⭐️⭐️⭐️ 4/5"
+          },
+          {
+            "name": "Olivia M.",
+            "comment": "Nice design but runs a bit large. The gradient colors are stunning, and the overall quality is excellent. I love pairing it with jeans or shorts for a relaxed look. A must-have if you prefer loose-fitting clothes.",
+            "date": "Posted on August 3, 2023",
+            "rating": "⭐️⭐️⭐️⭐️ 4/5"
+          },
+          {
+            "name": "Noah K.",
+            "comment": "Perfect for casual outings. Would buy again! The T-shirt feels premium and lightweight, making it ideal for summer. The gradient pattern is eye-catching and unique, making me stand out in a crowd.",
+            "date": "Posted on August 4, 2023",
+            "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+          }
+      ]
     },
     {
       "id": "3",
@@ -40,7 +92,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/6115/920b/12942762aefb7c7ac954e78b76284504?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GnB39R0poDoKWZVk7khTTTmcfh5KU-cvHy2m~8vJJhQFe6ExdCS-E70jqpei5gUbnr5nF9r2LTQ~09rrJsvnc4hbQztpuXBRvAMSxTmaDs~wB9EmwmTorwsWKBEMLHByHOcpL7mtAIxtXGltw5a1IlZfiHNzYcXE8azIvDc0WPCiwSa5H0Qgd3KFSHL9E65QbQG9uReF9mC1Fp5ZMsC8h~2f3bNgm4YiE6Z3MHMFgQyJqsgT1ulE4ldMv2CTwjXP9f5paEg2SgC55wX0xdJClZLS5s1PnKkyW7jot0U1TMd5J1g5T5CMv8Cxq17p1HfZB19f06~rwrhW4393RyMIWQ__",
       "description": "A modern black striped T-shirt crafted for a sleek and versatile wardrobe addition. Pair it with jeans or chinos for a smart look.",
       "themb2": "https://img01.ztat.net/article/spp-media-p1/0777f11c2210458295ff610eca45b7b1/be78e97ac0ba4e9d9badcbd24c3e27f0.jpg?imwidth=1800",
-      "themb3": "https://img01.ztat.net/article/spp-media-p1/d7e2811c0b8d4a568664865d3d237c2a/8cc0b22372d645e7b6d93636c0aa9c9a.jpg?imwidth=1800"
+      "themb3": "https://img01.ztat.net/article/spp-media-p1/d7e2811c0b8d4a568664865d3d237c2a/8cc0b22372d645e7b6d93636c0aa9c9a.jpg?imwidth=1800",
+      "reviews": [
+        {
+          "name": "Emma T.",
+          "comment": "Fabric feels premium, but the color faded slightly after the first wash. That said, it’s still a great T-shirt for casual occasions. The design is modern and pairs well with a jacket for an evening out.",
+          "date": "Posted on August 5, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "James H.",
+          "comment": "Arrived on time and looks amazing! The gradient colors are even better in person, and the fit is just right. It’s now one of my favorite pieces in my wardrobe. Fantastic buy!",
+          "date": "Posted on August 6, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Isabella D.",
+          "comment": "Comfortable and stylish. Got compliments already. The fabric feels soft against the skin, and the unique gradient design makes it a standout piece. Would definitely recommend it to anyone looking for a trendy T-shirt.",
+          "date": "Posted on August 7, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Mason W.",
+          "comment": "Good quality, but shipping was delayed. Despite the delay, the product exceeded my expectations. The gradient design is very trendy, and the fit is perfect. Would buy again if shipping improves.",
+          "date": "Posted on August 8, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        }
+      ]
     },
     {
       "id": "4",
@@ -54,7 +132,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/769b/9d60/ff941dde9bc0e54431b8d8fe3182f5e9?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gqcLL5UmMTnyPt9DvALODCglbRkma8WTB8Wb2rSdpGwQgz1oRRxOHRn2a62WzfL6OZj-qqVtbbo3w~4L5zhulyuteZnnG~A0KlNk-SdSHYnPBDaU877kleeDQY2W7rKbK-bTuxi1wKKOYGtYGvBWQyKCkL8UcarLoe2mdZoDGeqx5W~EwlPeCPHh2cb9R9KHpZ2eSBRZQVI1t8fjGnT~s6G2QtgQM6U3KibhoZkasMAQDjX8PavjtMny7hsBRTGanVyprSXELRnwaPDwFBxNcc8y2tZ~IEm9ljqsr1wSaYyv2xxtIpCvpe~NEBbZ1w1Yt2sMM02fqNHbYyWuwlGIyA__",
       "description": "These skinny fit jeans offer a comfortable and stylish look, perfect for everyday wear or a night out.",
       "themb2": "https://img01.ztat.net/article/spp-media-p1/d80a3940ccde42fdb9edd6d9a8014ab3/f2feaf10addb46179024b580f873b1ef.jpg?imwidth=1800",
-      "themb3": "https://img01.ztat.net/article/spp-media-p1/ce7bf132161a4478907dd9553d16b8b7/722ad5bf41db480ba399133109648b77.jpg?imwidth=1800&filter=packshot"
+      "themb3": "https://img01.ztat.net/article/spp-media-p1/ce7bf132161a4478907dd9553d16b8b7/722ad5bf41db480ba399133109648b77.jpg?imwidth=1800&filter=packshot",
+      "reviews": [
+        {
+          "name": "Ava P.",
+          "comment": "Soft fabric, perfect for layering. This T-shirt is now a staple in my wardrobe. The gradient effect adds a pop of color to my outfits, and it’s so versatile that I can wear it with almost anything.",
+          "date": "Posted on August 9, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Elijah R.",
+          "comment": "Size was a bit off, but quality is top-notch. The T-shirt feels durable and comfortable, making it great for casual wear. The gradient design is a nice touch, and I’m considering buying another in a different size.",
+          "date": "Posted on August 10, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "Charlotte V.",
+          "comment": "Love the gradient design. Unique and stylish! The T-shirt fits perfectly and is super comfortable for everyday wear. It’s definitely worth the price and has become a regular in my outfit rotation.",
+          "date": "Posted on August 11, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Logan B.",
+          "comment": "Affordable and comfortable. Will buy more! The gradient design is modern and trendy, and the material feels soft and breathable. I’m really happy with my purchase.",
+          "date": "Posted on August 12, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        }
+      ]
     },
     {
       "id": "5",
@@ -68,7 +172,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/bbf4/11c2/5fc84f87eeac1062fbe47f49c192d4f2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j2zRJvvq9tM5IRPO74vJiPhtF6BOd5s0Ee3Tjh2MTz0N3-TFTRXDwXN2BbT8QXDf9mZeNYmStRD8tz5FJucFT-FSQfEPxGc09FJQRoLwRCGaFBB1LeLgUJVcrIRfZ3VH11QygxPv~Ihy~NAsplH7zOS7ctbN0F-YOTi7PiYM20RW6Z0dxEvMb-hX3fLiU0rCrASgKvYJ4jo~HYur0O4HfeQZJWCIwep~Rhjuq92NffqcGAZZl30rb-gFn5SQXQSMUfBQSvgeG3UFOrdQrHBX8ADmEB8Fw47vMdZzNmqd1UavVZ7htorOdB4SsccWqo2fc~DXzlAOqpsTMfYf9FIOJw__",
       "description": "A classic checkered shirt that combines vibrant colors and timeless design. Suitable for casual or semi-formal settings.",
       "themb2": "https://media.6media.me/media/catalog/product/6/5/65824-0387-widct-fig-prpl-760x850.jpg",
-      "themb3": "https://media.6media.me/media/catalog/product/6/5/65824-0387-widct-fig-prpl-760x850-4.jpg"
+      "themb3": "https://media.6media.me/media/catalog/product/6/5/65824-0387-widct-fig-prpl-760x850-4.jpg",
+      "reviews":[
+        {
+          "name": "Amelia C.",
+          "comment": "The fit is perfect for my body type. This T-shirt exceeded my expectations in terms of quality and design. It’s become a go-to piece in my wardrobe for casual days and even semi-formal outings.",
+          "date": "Posted on August 13, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Lucas G.",
+          "comment": "Decent quality but not as soft as expected. However, the gradient design makes up for it. It’s a good T-shirt for casual use, and I’d recommend it to those who don’t mind a slightly firmer fabric.",
+          "date": "Posted on August 14, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "Mia F.",
+          "comment": "Vibrant colors and premium material. The gradient design looks even better in person. It’s a versatile piece that can be dressed up or down depending on the occasion.",
+          "date": "Posted on August 15, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Benjamin E.",
+          "comment": "Feels good to wear, perfect for summer. This T-shirt is lightweight and breathable, making it my top pick for hot days. The gradient design is simply stunning.",
+          "date": "Posted on August 16, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        }
+      ]
     },
     {
       "id": "6",
@@ -82,7 +212,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/3457/42c2/7cc557f42cf1d489f7cc811856b90e9f?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Wv8Hwd6uZKfUjFgEnlGTQYUC3s30hsUipVo0FxSXqSrEkiEiMmStneHQpQLjT7PeS3y7u9KkO-tnuKw3Fa~V6eYW0AXoJiknZKr3bUuWCMgE3ZOuqgG~ILUNM2wTvS6FaJl-ZlRRpxwzgS~VwYWm-~6eQi3VJSbdKxSjvuuQL3TyNcKybo3k4iwf5p4t~7-RdI1BU5TxO11C83SJdJbkov35ETTmhsYf12vGCjFZHnt4ztFtf0cVZjplYGBnwVEtmRIMin7EfxQF~m1hBoR~GNsbIICDL4VL0xG9YSTkQZ2w5C1YJhFjZ9pPTgVbhKm6gNsQvpXrnFcqBMpNBhfA__",
       "description": "A cozy hooded sweatshirt made from high-quality fleece. Perfect for keeping warm during chilly days.",
       "themb2": "https://m.media-amazon.com/images/I/812KJVzfLOL._AC_SY606_.jpg",
-      "themb3": "https://m.media-amazon.com/images/I/611UOI8hRTL._AC_SY606_.jpg"
+      "themb3": "https://m.media-amazon.com/images/I/611UOI8hRTL._AC_SY606_.jpg",
+      "reviews":[
+        {
+          "name": "Harper Z.",
+          "comment": "Washed it once, and it still looks great! The fabric is durable, and the gradient design hasnt faded at all. Im really impressed with the quality of this T-shirt.",
+          "date": "Posted on August 17, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        },
+        {
+          "name": "Henry Q.",
+          "comment": "Better than expected. Amazing quality. The T-shirt fits like a dream and feels great against the skin. The gradient effect is so trendy and chic.",
+          "date": "Posted on August 18, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Ella S.",
+          "comment": "The stitching could be better, but still nice. The gradient design makes it stand out, and its great for casual wear. Would recommend it to anyone looking for an affordable yet stylish option.",
+          "date": "Posted on August 19, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "Jack Y.",
+          "comment": "Exactly as advertised. Super comfortable. The gradient design is a conversation starter, and the fabric is soft and breathable. Im planning to buy more in different colors!",
+          "date": "Posted on August 20, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        }
+      ]
     },
     {
       "id": "7",
@@ -96,7 +252,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/e01f/5d3c/d9029bd465a4c7158689ab1619693014?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SAvhuHJx5gUnalgPEyX-ovy4xJY0em90BiYUvb0Zhf1-Hfpod6qOKxKOPtET7CwOdFppjcOTrUHY6yX0BkVNIom5ioMSwpGFWWeUEyyNDE19E2jnP8p1z101lVHHKZRNg3WocYcsa~CymkNzEsDVvPBo-0iXrqrt6NiAM6ZyxEqrq74-cDu~poc95ZkevxOV96CTuRj0oVQ1pEiw2qlirHi~g91mXy6YUrOkJQWVjj~hNA-zY2Mo9gOQx1C0YZIf910KQJFoQMZOYu-HeL37ZjDrmlMLRHuTzPtyh1JccfozR2OUrXaiIEk~4MMwM3HGeuJFPzpbtkpCn0Z27NTTOg__",
       "description": "Tailored slim fit trousers designed for a sleek and modern look. Ideal for both office and casual outings.",
       "themb2": "https://media.6media.me/media/catalog/product/1/3/134558481-2.jpg",
-      "themb3": "https://media.6media.me/media/catalog/product/1/3/134558481-3.jpg"
+      "themb3": "https://media.6media.me/media/catalog/product/1/3/134558481-3.jpg",
+      "reviews":[
+        {
+          "name": "Grace X.",
+          "comment": "Would recommend to friends. Fantastic buy. The gradient design is eye-catching, and the quality is better than I expected. Perfect for casual and semi-formal occasions.",
+          "date": "Posted on August 21, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Alexander U.",
+          "comment": "Shipping was fast, and the product is great. The gradient design is even more vibrant in person, and the fit is perfect. This is my new favorite T-shirt.",
+          "date": "Posted on August 22, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        },
+        {
+          "name": "Emily I.",
+          "comment": "The gradient design is so trendy. Love it! This T-shirt combines style and comfort perfectly. It’s a great addition to my wardrobe and pairs well with almost anything.",
+          "date": "Posted on August 23, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Daniel O.",
+          "comment": "Good product, but packaging was damaged. Despite the minor inconvenience, the T-shirt itself is excellent. The gradient design is stunning and looks great with jeans.",
+          "date": "Posted on August 24, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        }
+      ]
     },
     {
       "id": "8",
@@ -110,7 +292,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/5723/4b01/d5fcac5632cf6823570ca2d1d53d7d73?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RPA8sVhqEDae1stCaElmvCYIbg8B25yY6zXSKWuwVnxqYbRZEeHyiCzI9WkcstVrI7YV-BrFHTXsSm9tFJlboh0cJf9pPcJmXACoGTPbwIII~afFKmaxmUiY2GVwjr-PjNrsB-75~R7yBKjEYC-liOxELIoD8VFrWxrc453s7BjuRhwr-HuPSzjuPGuSIlWavjX7WhtHeI0EnzyYMBmniIao6yBRWAwjQ2baE9-8aMxb~VcL0rvqI6kc5zzscCDvbl46UDFvcIkpnke3HwHZ0RsYEWDjXVo7hLqlaktTa1sZn134xCnL1SSW8z7-41gL~VjLyV2-sy7l4-ooLI4FuA__",
       "description": "Lightweight and comfortable sports sneakers, designed to provide excellent support for your active lifestyle.",
       "themb2": "https://ounass-sa.atgcdn.ae/small_light(p=zoom,of=webp,q=65)/pub/media/catalog/product/2/1/216647491_do_fr.jpg?ts=1698064285.8154",
-      "themb3": "https://ounass-sa.atgcdn.ae/small_light(p=zoom,of=webp,q=65)/pub/media/catalog/product/2/1/216647491_do_pk.jpg?ts=1698064285.8154"
+      "themb3": "https://ounass-sa.atgcdn.ae/small_light(p=zoom,of=webp,q=65)/pub/media/catalog/product/2/1/216647491_do_pk.jpg?ts=1698064285.8154",
+      "reviews":[
+        {
+          "name": "Abigail N.",
+          "comment": "Exceeded my expectations. Very comfortable. The gradient design is a unique touch, and the quality of the fabric is outstanding. I’ll definitely be buying more from this brand.",
+          "date": "Posted on August 25, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Sebastian W.",
+          "comment": "The color is slightly different from the picture. That being said, the T-shirt is still high-quality and comfortable to wear. It’s great for casual outings.",
+          "date": "Posted on August 26, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        },
+        {
+          "name": "Evelyn K.",
+          "comment": "Lightweight and breathable. Perfect for daily wear. The gradient design adds a pop of color to my outfits, making this T-shirt one of my favorites.",
+          "date": "Posted on August 27, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Matthew P.",
+          "comment": "Could be softer, but overall good quality. The gradient design is trendy and makes the T-shirt stand out. It’s a solid addition to my casual wardrobe.",
+          "date": "Posted on August 28, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        }
+      ]
     },
     {
       "id": "9",
@@ -124,7 +332,33 @@
       "image": "https://s3-alpha-sig.figma.com/img/8951/5d71/4a66d9ca1401101dee4cc689f8bb5ad2?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JX8-Sjl3IPkwIqd2-4tfn8wc6ghPnCc~I~40xFq3NaRbU51mLZk7EgY-IYjSrxmvUW-AZ2qAvVT6XRX1GVkSbQNexW-LeKUJinA15jQV0V3sZOyDBR-eH9OhWKD~eAY0Fx~UbnDq2T9j4loZq4aBrQHtSokAYtI1ITJh3DTzyI2hVhnNVgY0WucsXEM8~MqsgUf96BR~R8qf1yGAtXv7llMgLWAKQUXRqm~z1EFdX3ogMthMJHv9-7oOHyHf0--GH65n2~RXynpVt5YpUdLFjaAEACfXph5mxjjjham4iSWYagzJ5CYgn8YQYjUKwmQ3VLdaqYuSrPwZy0QokF~63w__",
       "description": "A premium leather jacket with a classic design. Adds a touch of elegance to your wardrobe.",
       "themb2": "https://m.media-amazon.com/images/I/91mOk1lzITL._AC_SY741_.jpg",
-      "themb3": "https://m.media-amazon.com/images/I/91Oip-mVECL._AC_SY741_.jpg"
+      "themb3": "https://m.media-amazon.com/images/I/91Oip-mVECL._AC_SY741_.jpg",
+      "reviews":[
+        {
+          "name": "Chloe A.",
+          "comment": "This T-shirt is absolutely fantastic! I love the vibrant gradient colors, and it feels incredibly soft against the skin. I've already recommended it to all my friends because it's just that good. The fit is true to size, and the quality is amazing. Perfect for any occasion!",
+          "date": "Posted on September 1, 2023",
+          "rating": "⭐️⭐️ 2/5"
+        },
+        {
+          "name": "Ethan T.",
+          "comment": "The T-shirt exceeded my expectations. The gradient design is so trendy and stylish, and the fabric is super comfortable. Its great for casual wear or even for dressing up a bit. Definitely a great purchase, and I’ll be coming back for more.",
+          "date": "Posted on September 2, 2023",
+          "rating": "⭐️⭐️⭐️⭐️⭐️ 5/5"
+        },
+        {
+          "name": "Lily S.",
+          "comment": "I cant get enough of this T-shirt! The gradient design is beautifully done, and the material is lightweight and breathable. Ive worn it several times already, and it still looks brand new. Highly recommend it to anyone looking for a stylish wardrobe addition.",
+          "date": "Posted on September 3, 2023",
+          "rating": "⭐️⭐️⭐️⭐️ 4/5"
+        },
+        {
+          "name": "Oliver R.",
+          "comment": "This T-shirt is a must-have! The colors are vibrant, and the quality is top-notch. Its comfortable to wear all day, and I always get compliments on the gradient design. Its versatile enough to pair with anything in my closet. Worth every penny!",
+          "date": "Posted on September 4, 2023",
+          "rating": "⭐️⭐️⭐️ 3/5"
+        }
+      ]
     }
   ],
   "dress": [
