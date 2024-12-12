@@ -156,20 +156,5 @@
     }
   ],
   "users": [
-    {
-      "id": "f4f0",
-      "email": "useftarek2gmail.com",
-      "password": "12345678"
-    },
-    {
-      "id": "3186",
-      "email": "useftarek2@gmail.com",
-      "password": "123456789#A"
-    },
-    {
-      "id": "52af",
-      "email": "AymanHamed22@gmail.com",
-      "password": "AymanHamed22#"
-    }
   ]
 }
