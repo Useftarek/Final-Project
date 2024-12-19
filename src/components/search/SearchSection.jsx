@@ -8,7 +8,7 @@ export default function SearchSection() {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-  const { data, isLoading, isError } = getAllProducts();
+  const { data } = getAllProducts();
   const ProductsData = data?.data || [];
   console.log("All Products: ", ProductsData);
 

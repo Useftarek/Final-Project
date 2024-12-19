@@ -43,13 +43,7 @@ export default function Navbar() {
                 {isOpen && (
                   <ul className="dropdown_menu">
                     <li>
-                      <NavLink to="/ProductDetailsPage">Products</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/ss">Category 4</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/aa">Category 3</NavLink>
+                      <NavLink to="/cart">Cart Page</NavLink>
                     </li>
                   </ul>
                 )}
@@ -90,7 +84,10 @@ export default function Navbar() {
         <FaSearch className="icon" />
         <IoMdCart onClick={goToCart} />
         <span className="user">{cartCount}</span>
-        <NavLink to={"/login"}> <FaUser /> </NavLink>
+        <NavLink to={"/login"}>
+          {" "}
+          <FaUser />{" "}
+        </NavLink>
       </div>
     </div>
   );

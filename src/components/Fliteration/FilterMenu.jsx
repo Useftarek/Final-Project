@@ -8,7 +8,6 @@ export default function FilterMenu({ onFilterChange }) {
   const [availableColors, setAvailableColors] = useState([]);
   const [availableSizes, setAvailableSizes] = useState([]);
 
-  // جلب المنتجات من الـ API وتحليل الألوان والأحجام
   const { data } =  getAllProducts();
   useEffect(() => {
     const fetchData = async () => {

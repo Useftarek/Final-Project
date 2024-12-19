@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 
 export default function Products_Details_Content() {
   const { id } = useParams();
-  const { data, isLoading, isError } = getSingleProduct(id);
+  const { data} = getSingleProduct(id);
   const ProductsData = data?.data;
   return (
     <div className="products_details_container">
